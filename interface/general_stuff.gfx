@@ -177,15 +177,20 @@ spriteTypes = {
 	}
 
 	spriteType = {
+		name = "GFX_construction_header_bg"
+		texturefile = "gfx/interface/construction_header_bg.dds"
+	}
+
+	spriteType = {
 		name = "GFX_resources_strip"
 		texturefile = "gfx/interface/resources_strip.dds"
-		noOfFrames = 6
+		noOfFrames = 7
 	}
 
 	spriteType = {
 		name = "GFX_missing_resources_strip"
 		texturefile = "gfx/interface/missing_resources_strip.dds"
-		noOfFrames = 6
+		noOfFrames = 7
 	}
 	
 	spriteType = {
@@ -260,13 +265,6 @@ spriteTypes = {
 		textureFile2 = "gfx/interface/small_shield_mask.tga"
 		effectFile = "gfx/FX/maskedflag.lua"
 	}
-
-	maskedShieldType = {
-		name = "GFX_shield_medium_menu"
-		textureFile1 = "gfx/custom_interface/shield_medium_overlay.dds"
-		textureFile2 = "gfx/interface/shield_medium_mask_fix.tga"
-		effectFile = "gfx/FX/maskedflag.lua"
-	}
 	
 	maskedShieldType = {
 		name = "GFX_shield_medium"
@@ -280,8 +278,8 @@ spriteTypes = {
 		textureFile1 = "gfx/interface/flag_overlay_small.dds"
 		textureFile2 = "gfx/interface/shield_small_mask.tga"
 		effectFile = "gfx/FX/maskedflag.lua"
-	}
-	
+	}	
+
 	spriteType = {
 		name = "GFX_major_country_flag_overlay"
 		texturefile = "gfx/interface/major_country_flag_overlay.dds"

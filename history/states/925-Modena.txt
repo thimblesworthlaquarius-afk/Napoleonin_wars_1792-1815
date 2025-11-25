@@ -12,5 +12,8 @@ state = {
         owner = MOD
         controller = MOD
         add_core_of = MOD
+		victory_points = {
+            9752 30
+        }
     }
 }
