@@ -1639,7 +1639,7 @@ focus_tree = {
 	}
 
 	focus = {
-		id = FRA_domination_of_southern_italy
+		id = FRA_careful_uk_navy
 		icon = GFX_focus_fra_le_deluge
 		x = -20
 		y = 5
@@ -1647,11 +1647,10 @@ focus_tree = {
 		search_filters = { FOCUS_FILTER_POLITICAL }	
 		prerequisite = { focus = FRA_ligurian_republic }
 		relative_position_id = FRA_promote_napoleon
-		completion_reward = {	
-			set_cosmetic_tag = FRP_FRA
-
-			country_event = { id = france.2 }
-			news_event = { id = news.2 }
+		completion_reward = {
+            ENG = {
+			    add_ideas = { FRA_british_navy_cook }
+			}	
 		}
 	}
 
