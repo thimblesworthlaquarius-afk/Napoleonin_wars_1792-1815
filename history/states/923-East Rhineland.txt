@@ -1,6 +1,9 @@
 state = {
 	id = 923
 	name = "STATE_923"
+	resources = {
+        steel = 5
+    }
 	provinces = {
 		529 3512 6469 6570 9482
 	}
@@ -9,6 +12,10 @@ state = {
 	local_supplies = 0.000
 
 	history = {
+	    buildings = {
+			infrastructure = 2
+			industrial_complex = 2
+		}
 		owner = GER
 		add_core_of = GER
 		victory_points = {
