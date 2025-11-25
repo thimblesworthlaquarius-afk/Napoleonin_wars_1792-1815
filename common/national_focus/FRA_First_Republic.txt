@@ -1506,6 +1506,7 @@ focus_tree = {
 			    add_state_core = 2
 				add_state_core = 157
 			}
+			set_country_flag = FRA_rome_fall
 		}
 	}
 
@@ -1517,12 +1518,21 @@ focus_tree = {
 		cost = 3.5
 		search_filters = { FOCUS_FILTER_POLITICAL }	
 		prerequisite = { focus = FRA_roman_republic }
+		available = {
+            has_country_flag = FRA_rome_fall
+        }
 		relative_position_id = FRA_promote_napoleon
 		completion_reward = {	
-			set_cosmetic_tag = FRP_FRA
-
-			country_event = { id = france.2 }
-			news_event = { id = news.2 }
+			add_political_power = 150
+			every_country = {
+                limit = {
+                    has_idea = catholic
+                }
+                add_opinion_modifier = {
+                    target = ROOT
+                    modifier = move_pope_opinion
+                }
+			}	
 		}
 	}
 
