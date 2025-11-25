@@ -12,8 +12,7 @@ state={
 			11846 5 
 		}
 		buildings = {
-			infrastructure = 4
-			air_base = 8
+			infrastructure = 8
 			arms_factory = 1
 			industrial_complex = 4
 			11751 = {
@@ -27,14 +26,6 @@ state={
 
 		}
 		add_core_of = PPL
-		1939.1.1 = {
-			buildings = {
-				arms_factory = 2
-				industrial_complex = 5
-
-			}
-
-		}
 
 	}
 

@@ -1,4 +1,6 @@
 capital = 117
+ 
+oob = NAP_1792
 
 set_convoys = 300
 
