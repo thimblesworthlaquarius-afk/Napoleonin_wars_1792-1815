@@ -3324,5 +3324,9 @@ spriteTypes = {
 	    name = "GFX_FRA_undermine_uk_india"
 	    texturefile = "gfx/interface/goals/FRA/FRA_undermine_uk_india.dds"			
 	}
+	SpriteType = {
+	    name = "GFX_FRA_south_republic"
+	    texturefile = "gfx/interface/goals/FRA/FRA_south_republic.dds"			
+	}
 
 }

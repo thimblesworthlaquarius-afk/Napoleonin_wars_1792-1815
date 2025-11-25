@@ -1461,7 +1461,7 @@ focus_tree = {
 
 	focus = {
 		id = FRA_southern_republics
-		icon = GFX_focus_fra_le_deluge
+		icon = GFX_FRA_south_republic
 		x = -16
 		y = 3
 		cost = 3.5
