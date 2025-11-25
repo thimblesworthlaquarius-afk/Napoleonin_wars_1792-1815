@@ -1,4 +1,4 @@
-version="1.17.0"
+version="1.0"
 tags={
 	"Historical"
 	"Gameplay"
