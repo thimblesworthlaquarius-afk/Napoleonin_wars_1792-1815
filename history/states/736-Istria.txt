@@ -1,0 +1,24 @@
+state = {
+	id = 736
+	name = "STATE_736"
+	provinces = {
+		6626 11735 
+	}
+	manpower = 1063159
+	buildings_max_level_factor = 1.000
+	state_category = city
+	local_supplies = 0.000
+
+	history = {
+		owner = VNI
+		controller = VNI
+		add_core_of = VNI
+
+		buildings = {
+			infrastructure = 1
+			6626 = {
+				naval_base = 5
+			}
+		}
+	}
+}

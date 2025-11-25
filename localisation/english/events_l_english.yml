@@ -1,0 +1,168 @@
+﻿l_english:
+ MINIMIZE_EVENT:0 "§GClick§! to Minimize. Event will be placed in the Event Queue under §HEvents and Decisions§!."
+
+
+## poland/lithuania ## 
+
+ pol.1.t:0 "Sytuacja Rzeczypospolitej Obojga Narodów"
+ pol.1.d:0 "The once-mighty Polish–Lithuanian Commonwealth stands at a crossroads. Decades of foreign interference, internal corruption, and political paralysis have brought the Republic to the brink of collapse. Yet, hope flickers anew — the Constitution of May 3rd has breathed life into the dream of a modern, reformed state. But not all share this vision. Reactionary nobles, fearing the loss of their ancient privileges, have turned to Russia for aid, forming the Targowica Confederation. As Russian armies cross the border, the Commonwealth faces its greatest trial: to defend its newfound liberty or to succumb once again to the will of its powerful neighbors. The year is 1792 — and the destiny of Poland and Lithuania hangs in the balance."
+ pol.1.a:0 "Einam"
+ 
+ pol.2.t:0 "The Commonwealth Stands"
+ pol.2.d:0 "With courage and determination, the Commonwealth has chosen not merely to resist, but to strengthen itself from within. Inspired by the Constitution of May 3rd, reformers across the land begin to shape a new era — modernizing governance, reorganizing the army, and fostering a spirit of civic pride.Though dangers still loom, the people sense a brighter future. The Republic moves forward, guided by wisdom, courage, and the hope of lasting liberty."
+ pol.2.a:0 "Start Reforms"
+ 
+ pol.3.t:0 "The New Constitution of the Commonwealth"
+ pol.3.d:0 "After long debate and reflection on the perilous state of our realm, the Sejm and the Crown have at last reached agreement. The Commonwealth shall no longer endure the weight of foreign meddling and internal discord. A new Constitution is proclaimed — one that grants the government strength to act, the army power to defend, and the nation unity of purpose.Across Poland and Lithuania, bells ring and banners rise. Reformers speak of renewal, while the old guard watches with wary eyes. Yet one truth is clear: the days of weakness are past. The Commonwealth stands reformed, resolved to guard its motherland against all who would subdue it."
+ pol.3.a:0 "For the strength of the motherland!"
+ 
+ pol.5.t:0 "The Northern Question"
+ pol.5.d:0 "The time has come to look once more toward the Baltic. The port of Gdynia — our gateway to the sea and symbol of lost sovereignty — lies under Prussian rule, taken during our nation’s years of weakness. Now, with the Commonwealth stirring anew, many voices within the Sejm call for its return.Our armies are not yet at full strength, and the treasury strains under the weight of reform. Yet to remain passive would invite further humiliation. The question before us is one of courage — shall we risk war to reclaim what is rightfully ours?"
+ pol.5.a:0 "Prepare the plans for war!"
+ 
+ pol.8.t:0 "After the Second Partition"
+ pol.8.d:0 "The Second Partition has struck like a blade to the nation’s heart. Once-proud lands of the Commonwealth now lie beneath foreign banners, and the Sejm, bound by fear and foreign bayonets, can do nothing but watch.The streets of Warsaw are filled with whispers — of betrayal, of hopelessness, of an end long foretold. Merchants close their shops, soldiers abandon their posts, and nobles quarrel over what little remains.The dream of a free and united Commonwealth fades with each passing day. Some still speak of reform, others of submission. Yet for many, it is already too late — the motherland bleeds, and no hand rises to save her."
+ pol.8.a:0 "We can do nothing.."
+ 
+ pol.9.t:0 "The Commonwealth Falls Apart"
+ pol.9.d:0 "Chaos grips the land. Since the Second Partition, the Sejm has lost all authority, the army lies in confusion, and the treasury stands empty. Panic spreads through the provinces as foreign powers tighten their hold and the people lose faith in Warsaw’s rule.In Vilnius, the Lithuanian nobles, left without guidance or protection, have proclaimed their own administration — not in defiance, but in despair. The Grand Duchy now stands apart, seeking to survive where the Commonwealth cannot.Our once proud union, built upon faith and brotherhood, now collapses under its own weight. The government can do nothing but watch as centuries of shared history fade into ruin."
+ pol.9.a:0 "We Can Only Watch.."
+
+ 
+ pol.10.t:0 "What Remains of the Commonwealth"
+ pol.10.d:0 "The Commonwealth lies shattered.\n\nThe Sejm no longer sits, the crown’s authority is but a memory, and across the land, panic turns to resignation.In Vilnius, a new Lithuanian administration claims to act in the name of survival. In Warsaw, the remnants of government cling to hope that the heart of Poland might still endure. Both lands now face the same question: who shall lead the remnants of this broken union?The time has come to choose our path — to hold fast in Poland, or to follow Lithuania into uncertain independence."
+ pol.10.a:0 "We shall remain in Warsaw"
+ pol.10.b:0 "The future lies in Vilnius — Lithuania shall rise anew!"
+ 
+## France ##
+ france.1.t:0 "Storming The Tuileries"
+ france.1.d:0 "The long reign of the French monarchy and the House of Bourbon has come to an end. Who will rise to power and fill the ever exapnding void of power within the French government?"
+ france.1.a:0 "Only Time Will Tell..."
+ 
+ france.8.t:0 "Trial Of Louis Capet"
+ france.8.d:0 "The former King of France, now stripped of his titles and known only as Louis Capet, stands before the National Convention. The great hall falls silent as the charges are read - treason against the nation, conspiracy with foreign powers, and crimes against the liberty of the French people. The evidence is damning: secret correspondence with Austria, the flight to Varennes, the blood spilled at the Champ de Mars. Each accusation hangs heavy in the air.\n\nThe deputies debate with fierce intensity. Robespierre rises, his voice cold and measured: "Louis must die because the nation must live. There can be no compromise with tyranny." Saint-Just follows, declaring: "No man can reign innocently - every king is a rebel and a usurper." But others counsel restraint. Brissot argues for exile, while some Girondins speak of clemency and the preservation of France's reputation abroad.\n\nThe questioning continues for hours. Louis Capet, assisted by his defender Malesherbes, answers each charge with surprising composure. He does not rage or plead, but speaks with a quiet dignity that unsettles some in the assembly. When asked about the Austrian correspondence, he denies knowledge. When confronted with the flight to Varennes, he claims only to have sought safety for his family.\n\nFinally, as the interrogation draws to a close, the President of the Convention grants Louis permission to address the assembly one final time. A hush falls over the chamber. Louis rises slowly, his face pale but calm. His voice, though weaker than in his days of power, carries clearly through the hall:\n\n"Citizens... Representatives of France... I have loved the French people. Through all the years of my reign, whatever my errors of judgment may have been, I have sought their welfare and their happiness. I never imagined that I would stand here, accused of treason against those I have always considered my children." He pauses, his hands trembling slightly. "I am innocent of these charges. I have conspired with no foreign power. I have shed no blood willingly. If mistakes were made, they were the mistakes of circumstance and counsel, not of malice. I ask only that you judge me justly, as you would wish to be judged yourselves."\n\nThe hall remains silent as Louis takes his seat once more."
+ france.8.a:0 "Dead"
+ france.8.b:0 "Exile"
+ france.8.c:0 "Imprisonment"
+
+ france.2.t:0 "Hero Of Two Worlds"
+ france.2.d:0 "The command tent at Sedan stood in oppressive silence as Lieutenant General Lafayette faced his assembled officers. Still wearing his blue uniform coat with gold épaulettes, the hero who had once commanded the National Guard of Paris. But his eyes carried the weight of a man whose world had collapsed.\n\n'Gentlemen,' Lafayette began, his voice steady but quiet, 'I must speak plainly. This government in Paris is illegitimate. It is illegal. On the tenth of August, a mob stormed the Tuileries Palace. They butchered the Swiss Guards. They imprisoned our King—the same King who granted us the constitution we swore to defend.'\n\nHe paused, gripping the edge of the map table. 'They have suspended the King's constitutional powers. They have torn apart the very document I helped create. The Declaration of the Rights of Man—my declaration—means nothing to them now. And they call me a traitor. Me. A traitor for remaining loyal to the constitution, to the King.'\n\nHis voice grew harder. 'Paris says I am guilty of treason because I will not join their mob rule. Because I refuse to betray Louis XVI. Let them remember: without me, there would be no Declaration of Rights. Without me, there would be no constitutional monarchy to destroy. I gave France liberty, and they repay me with accusations and arrest warrants.'\n\nLafayette straightened, his decision made. 'I have no choice remaining. I will cross into the Austrian Netherlands. Any man who wishes to follow me may do so freely. Any man who wishes to stay and serve these... people... may remain. I have no authority to command you anymore. I can only ask.'\n\nWithout waiting for responses, Lafayette walked slowly from the tent. Outside, his horse waited, already saddled. He mounted in silence, his movements heavy with defeat. Behind him, the sound of boots—perhaps a dozen, perhaps twenty officers and men, gathering their horses, making their choice.\n\nAs Lafayette rode toward the border in the grey morning light, he did not look back at the camp, at the tricolor banners, at the army he had commanded. Some officers followed. Most did not. The hero of two revolutions departed France as a fugitive, choosing exile over betrayal of his principles.\n\nThe Revolution would not forgive him. History would struggle to understand him. But Lafayette rode on."
+ france.2.a:0 "Good Bye..."
+ france.500.a: "The Birth of the French Republic"
+ france.500.b: "the National Convention assembled in the Tuileries Palace for what would become one of the most consequential sessions in the history of France. The air was thick with anticipation as deputy after deputy rose to speak, their voices united in a single purpose - the old order must fall, and a new age must dawn.\n\nWhen the motion was finally put forth, there was scarcely a moment's hesitation. By unanimous decree, the National Convention abolished the monarchy that had ruled France for centuries. In its place, they proclaimed the French Republic - the First Republic, born from the will of the people and the fire of revolution. The hall erupted into scenes of unbridled joy. Deputies embraced one another, tears streaming down their faces. From the galleries above, citizens cheered until their voices grew hoarse. Tricolor cockades were waved with fervor, and the cry of "Vive la République!" echoed through the ancient corridors.\n\nAmidst the celebration, a commanding figure rose from the benches of the Montagnards. Georges Jacques Danton, his broad shoulders and leonine features unmistakable even in the crowded chamber, stood waiting. His mere presence seemed to fill the room, and gradually, the tumult began to subside. Deputies turned to face him, their jubilation giving way to attentive silence. Even the galleries above grew quiet, sensing that something of great import was about to unfold.\n\nDanton's voice, powerful and resonant, carried to every corner of the hall: "Citizens! Representatives of the French people! Today we have struck down a tyrant and declared ourselves free men. But let us not forget - this Republic belongs not to us, but to the people of France!" He paused, his dark eyes sweeping across the assembly. "The Constitution we shall draft, the laws we shall write, the future we shall forge - all of this must bear the approval of those we represent. I propose, citizens, that when our Constitution is complete, it shall be submitted to the primary assemblies for popular ratification. Let every French citizen have his voice heard! Let the Republic be built not upon the authority of this Convention alone, but upon the sovereign will of the entire nation!"\n\nThe chamber erupted once more."
+ france.500.c: "Vive la République!"
+ france.501.a: "Fate of Savoy"
+ france.501.b: "The House of Savoy now resides in Sardinia while our forces maintain complete dominance of their Alpine territories. The government faces a dilemma about Savoy and Piedmont because different members support either practical solutions or buffer state between France and Austria to promote revolutionary ideas in Italy. Our dedication to freedom would become evident dreamlike approaches.\n\nSeveral deputies support establishing a Piedmontese Republic which would function as a mountain routes of Savoy and the productive agricultural land of Piedmont should remain under French control because a through this approach which would gain support from all Italian regions.\n\nSeveral deputies maintain that the essential security while generating substantial taxes and creating defensive positions along the Alps. The French administration has already proven beneficial new state could become unstable. The acquisition of these territories through direct annexation would establish our southern border to the local population so they should receive complete integration into the Republic.\n\nThe Directory holds the authority to make this crucial decision. France should choose between freeing nations or building natural borders through its territorial."
+ france.501.c: "Liberty cannot be imposed—it must be chosen. Let Piedmont govern itself under our guidance."
+ france.501.d: "The Alps are France's natural border. These lands shall strengthen the Republic directly."
+ france.502.a: "The Fate of Olympe de Gouges"
+ france.502.b: "The Revolutionary Tribunal has passed its final judgment. Olympe de Gouges, playwright and author of the Declaration of the Rights of Woman, has been found guilty of conspiracy against the Republic. Her crime: publishing pamphlets defending the deposed monarchy and launching direct attacks against the sovereignty of the Convention.\n\nInvestigators uncovered correspondence suggesting communication with the traitor Lafayette, who fled France after his failed attempt to march on Paris. De Gouges' writings called for a national referendum on the form of government—a transparent attempt to undermine the Republic and restore royalist tyranny through false appeals to popular sovereignty.\n\nRobespierre denounced her before the Committee of Public Safety: "She wanted to be a statesman and forgot the virtues of her sex. The law has punished this conspirator for forgetting the virtues that befit her gender."\n\nThe execution will send a clear message—neither fame nor past service to the Revolution can shield those who would betray the Republic in its hour of peril."
+ france.502.c: ""Woman has the right to mount the scaffold; she must equally have the right to mount the rostrum." - Olympe de Gouges, 1791"
+ france.3.t:0 "Austria Offer peace deal"
+ france.3.d:0 "After months of grueling campaigning across the Rhine and into the Italian peninsula, the Austrian Empire has finally bent the knee. Their emissaries have arrived in Paris bearing offers of peace, seeking to end this costly war that has drained Habsburg coffers and filled French arsenals with captured eagles.\n\nThe Directory faces a critical decision. The armies of the Republic have proven themselves superior on every battlefield - from Fleurus to Rivoli. General Bonaparte's Italian campaign has humiliated the Austrians and brought glory to French arms. Yet the war machine demands constant feeding, and our citizens grow weary.\n\nVienna offers recognition of our revolutionary government and territorial concessions. But the Rhine beckons - that natural frontier which Rome herself recognized as the boundary of civilization."
+ france.3.a:0 "We Accepted"
+ france.3.b:0 "We Want Rhineland!"
+ austria.10.t:0 "French Want Rhineland"
+ austria.10.a:0 "For Peace...."
+ austria.10.b:0 "NO!"
+ POL_cannot_create_troop_tt:0 "§RUnits cannot be trained, disbanded or have their templates modified.§!"
+
+ france.4.t:0 "The Cisalpine Republic?"
+ france.4.d:0 ""
+ france.4.a:0 "Put Napoleon Incharge!"
+ france.4.b:0 "Let The Be Independent!"
+
+ france.5.t:0 "The Dutch Refuse!"
+ france.5.d:0 ""
+ france.5.a:0 "How Dare They!"
+ france.5.b:0 "We're Out Of Luck..."
+
+ france.6.t:0 "The Swiss Refuse!"
+ france.6.d:0 ""
+ france.6.a:0 "We'll See Who's Laughing!"
+ france.6.b:0 "Time Will Tell..."
+
+ france.7.t:0 "Austria Refuse"
+ france.7.a:0 "So Its Annihilation They Want."
+
+
+## Austria ##
+
+ austria.2.t:0 "Death of Leopold II"
+ austria.2.d:0 "Austria has been plunged into an abyss of sorrow and anguish as the devastating news of Emperor Leopold II's untimely death shocks our nation. Our people, already burdened by the turbulent times, have now found ourselves facing an even greater tragedy—the loss of our compassionate and visionary leader.From the grand halls of Vienna to the humblest of villages, an outpouring of sorrow swept through all of us. Tears flowed freely, and anguished cries of mourning echoed through the streets. The loss is not merely of a ruler but of a father figure, a beacon of hope in troubled times. Now we must hope the son of our late Emperor can bear the torch of our great nation.."
+ austria.2.a:0 "Francis II Takes The Throne!"
+
+ austria.3.t:0 "The Austrian Netherlands?"
+ austria.3.d:0 "After recent talks within our government regarding the autonomy of the Austrian Netherlands we have been presented with two options as to what to do. Many within the government believe we should keep the territory as part of the Fatherland however others believe we should have it become a semi-autonomous puppet state."
+ austria.3.a:0 "Puppet the Austrian Netherlands!"
+ austria.3.b:0 "They shall remain part of the Fatherland!"
+
+ austria.4.t:0 "The French Take Wien"
+ austria.4.a:0 "We Surrender..."
+ austria.4.b:0 "Continue Fighting!"
+ 
+ austria.5.t:0 "Peace With The French?"
+ austria.5.a:0 "End The War"
+ austria.5.b:0 "Keep Fighting"
+ 
+ austria.11.t:0 "Traitor?"
+ austria.11.d:0 "The Emperor expected the recent war against Revolutionary France to be difficult to end in victory, but he did not expect one of the french generals to defect to his dominions in the Netherlands. Lafayette crossed the border not out of ambition, but in desperation after being betrayed by the very revolution he had started and of a Republic that devoured its children.\n\nIt was impossible not to recognize him after all, and so some soldiers captured him and after several journeys, the marquis he ended up in my palace, appearing before my throne.\n\nWhen they brought him before me, I studied him for a long moment. He looked exhausted, thinner than I remembered from reports and portraits, yet still carrying that stubborn idealism in his eyes. Even in chains, he tried to stand proudly.\n\n“General,” I greeted him, though he had no army left to command.\n\n“Your Majesty,” he replied quietly. “I did not intend to intrude upon your lands. I sought only safety from the madness consuming my country.”\n\nI asked him what he expected me to do — welcome him as a political ally, or return him to the wolves in Paris who would unquestionably tear him apart? He shook his head.\n\n“I seek no throne, no favor,” he said. “Only the chance to live. I opposed the king’s tyranny, yes, but I also opposed the brutality that replaced it. Is there no room in Europe for a man who simply wishes to see liberty without bloodshed?”\n\nHis words were earnest. They carried the weight of someone who had believed too much, too deeply. But I am no philosopher; I am responsible for realms, for order, for stability. And this man, however noble his intentions, had helped unleash forces that now threatened all of Europe. If France burned in Revolution, the flames might spread.\n\nSo I asked him plainly: “If I were to shelter you, what assurance have I that you will not again sow unrest? Your ideas have already undone one kingdom.”\n\nFor the first time, he faltered.\n\n“I have lost everything,” he whispered. “My country, my command, my influence. I am not here to spread ideas — only to survive them.”\n\nBut survival alone cannot be the measure by which emperors act.\n\nOur conversation ended with a quiet tension. He understood what my silence meant long before the guards laid a hand on him again. I did not condemn him out of cruelty, nor out of malice, but out of necessity. A revolutionary loose on Austrian soil, even a moderate one was a danger I could not permit.\n\nAs they led him away to his cell, he did not protest. He only looked back once, as if searching for some final sign of mercy. I offered none.\n\nHistory will judge whether I was right or wrong. But maintaining the stability of the Empire requires decisions unclouded by sentiment. Lafayette may dream of liberty without chaos, but the world he helped shape has little room for such dreams.\n\nHis imprisonment, though regrettable, was inevitable.\n\nFor peace to survive, his ideals had to be contained, even if the man himself could not escape them."
+ austria.11.a:0 "Passports for Lafayette, the enemy of the King and of order!"
+
+## Netherlands ##
+ netherlands.1.t:0 "Batavian Republic?"
+ netherlands.1.a:0 "Join France"
+ netherlands.1.b:0 "Refuse Their Offer"
+
+## Switzerland ##
+
+ switzerland.1.t:0 "Helvetic Republic?"
+ switzerland.1.a:0 "Join France"
+ switzerland.1.b:0 "Refuse Their Offer"
+
+## News ##
+
+ news.1.t:0 "Storming of The Tuileries"
+ news.1.d:0 "After french revolutionaries stormed the Tuileries royal palace, the home of the French royals, the tyranical French monarchy had been toppled. What does this mean for the future of France and it's people?"
+ news.1.a:0 "The Power Balance In Europe Is About To Change Dramatically."
+
+ news.2.t:0 "Declaration of The First French Republic"
+ news.2.d:0 "The National Convention has formally abolished the monarchy and declared France a republic. The decision came one day after the Convention's first session, marking the end of over a thousand years of royal rule in France.\n\nThe proclamation follows the suspension of King Louis XVI in August after the storming of the Tuileries Palace. The Convention, elected by universal male suffrage, voted unanimously to abolish the monarchy, declaring that "Monarchy is abolished in France."\n\nThe new government has adopted September 22, 1792 as Year I of the French Republic, establishing a new revolutionary calendar."
+ news.2.a:0 "Liberté, égalité, fraternité"
+
+ news.3.t:0 "National Razor"
+ news.3.d:0 "Due to King Louis XVI banning the breaking wheel. France needs a better, more efficient way of executing traitors. "
+ news.3.a:0 "Its the will of the King.."
+
+ news.4.t:0 "Death of Emperor Leopold"
+ news.4.d:0 "Last night, unexpectdly Emperor Leopold of the Austrian Habsburgs died suddenly. What will this hold for the future of the European continent. "
+ news.4.a:0 "What will this mean for Europe?"
+
+ news.5.t: "Second Partition of Poland"
+ news.5.d: "In a devastating blow to Polish sovereignty, the Commonwealth has been carved up once more by its ravenous neighbors. Prussian and Russian forces have completed their territorial seizures, with the Tsarina's armies securing vast eastern territories while Frederick William II claims valuable western lands.\n\nThe Polish-Lithuanian Commonwealth, already weakened by the First Partition of 1772, now faces existential crisis as nearly half its remaining territory falls under foreign control. Polish reformists' desperate attempts at constitutional revival have been crushed beneath the boots of imperial ambition."
+ news.5.a: "Bad Day For Poland."
+ news.5_tt: "§RPoland Will be Partition§!"
+
+ news.6.t:0 "Third Partition of Poland"
+ news.6.d:0 "Poland has ceased to exist. In a final act of territorial dissolution, Russia, Prussia, and Austria have completed the complete dismemberment of the Polish-Lithuanian Commonwealth. What began in 1772 has reached its tragic conclusion - an entire nation wiped from the map of Europe.\n\nThe Kościuszko Uprising's valiant resistance has been crushed. Russian forces under Suvorov have stormed Warsaw, while Prussian and Austrian armies secured their respective zones. The ancient Kingdom of Poland, once a great power spanning from the Baltic to the Black Sea, is no more."
+ news.6.a:0 "Poland Will Be Free Again... In 123 Years."
+
+ news.7.t:0 "Britain and Holland Join The Coalition"
+ news.7.d:0 "The conflict engulfing Europe has widened considerably as both the Dutch Republic and Great Britain have formally joined the coalition against France. This development marks a significant escalation in the ongoing struggle that has consumed the continent since the Revolution.\n\nThe Dutch decision comes amid growing concerns over French expansion along their southern border and pressure from traditional allies. The States-General voted to commit military forces to the coalition, reversing their previous policy of cautious neutrality. Dutch naval power in the North Sea and access to their financial resources will bolster the allied cause."
+ news.7.a:0 "What Does This Mean For The War?"
+ my_peace_tt1:0 "Austria Accepted Our Demands"
+
+ news.8.t:0 "Louis XVI Executed"
+ news.8.d:0 "In a shocking turn of events, the revolutionary French government has executed King Louis XVI by guillotine. The monarch's death has sent ripples throughout Europe, with monarchies alarmed at the radical turn of events in France. The Revolution, it seems, has only just begun."
+ news.8.a:0 "A new chapter begins for France."
+ 
+ ## Fate of nation ##
+ france.9.t:0 "Fate of Switzerland"
+ france.9.d:0 "The Swiss Confederation has fallen. After initial defiant resistance against Revolutionary France's demands, the stubborn mountaineers have been crushed beneath the weight of French military superiority. The old cantons, proud guardians of Alpine independence for centuries, now lie prostrate before the armies of the Republic.\n\nGeneral Brune's forces have swept through the valleys, overwhelming the scattered cantonal militias. Bern has been occupied, its legendary treasury seized. The ancient Swiss Confederacy, which had maintained its independence through cunning diplomacy and formidable defensive terrain, has finally met its match in Revolutionary fervor and modern warfare.\n\nWe are now holds Switzerland's destiny in its hands."
+ france.9.a:0 "Establish the Helvetic Republic."
+ france.9.b:0 "Establish the Helvetic Republic and Secure Strategic Territories."
+
+ ## Tool Tips ##
+
+ MENU_DISCORD:0 "Click Here To Join Our §1Discord!"
+ SPIRIT_ADD_IDEA:0 "Click Here To Add An Idea"

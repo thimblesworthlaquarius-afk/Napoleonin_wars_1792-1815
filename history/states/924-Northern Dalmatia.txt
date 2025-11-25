@@ -1,0 +1,16 @@
+state = {
+    id = 924
+    name = "STATE_924"
+    provinces = {
+        591 3601 6611 11564
+    }
+    manpower = 0
+    buildings_max_level_factor = 1.000
+    local_supplies = 0.000
+
+    history = {
+        owner = AUS
+        controller = AUS
+        add_core_of = AUS
+    }
+}

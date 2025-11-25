@@ -1,0 +1,30 @@
+state={
+    id=113
+    name="STATE_113"
+
+    resources={
+        aluminium=0
+        steel=2
+    }
+
+    provinces={
+        303 369 3342 3359 7377 11293 11303
+    }
+
+    manpower=1357600
+    buildings_max_level_factor=1.000
+    state_category=city
+    local_supplies=0.000
+
+    history={
+        owner = ENG
+        add_core_of = ENG
+
+        victory_points = {
+            303 1 # Tullamore
+        }
+        victory_points = {
+            11293 10 # Dublin
+        }
+    }
+}

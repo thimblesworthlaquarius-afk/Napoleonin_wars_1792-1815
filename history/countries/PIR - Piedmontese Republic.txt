@@ -1,0 +1,37 @@
+capital = 158
+
+set_convoys = 300
+
+1792.1.1 = {
+
+set_politics = {
+    ruling_party = authoritarian_democracy
+    elections_allowed = yes
+    election_frequency = 48
+    last_election = "1792.1.1"
+
+}
+set_popularities = {
+    authoritarian_democracy = 0.70
+    neutrality = 0.20
+    communism = 0.05
+}
+add_equipment_to_stockpile = {
+	type = infantry_equipment_0
+	amount = 22000
+	producer = PIR
+}
+
+add_equipment_to_stockpile = {
+	type = support_equipment_1
+	amount = 10000
+	producer = PIR
+}
+	add_ideas = {
+		catholic
+		puppet
+	}
+}
+
+recruit_character = PIR_council_1
+

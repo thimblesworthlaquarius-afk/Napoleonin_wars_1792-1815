@@ -1,0 +1,25 @@
+focus_tree = {
+    id = RUS_1792
+    continuous_focus_position = { x =  y =  } 
+    country = {
+        factor = 0
+        modifier = {
+            add = 10
+            tag = RUS
+        }
+    }
+
+ ######################
+ ##  Russian Empire  ##
+ ######################
+
+focus = {
+        id = RUS_the_treaty_of_jassy
+        icon = 
+        x = 2
+        y = 0
+        cost = 5
+        completion_reward = {
+		country_event = rus.1
+        }
+    }

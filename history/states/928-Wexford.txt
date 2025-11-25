@@ -1,0 +1,17 @@
+state={
+    id=928
+    name="STATE_928"
+
+    provinces={
+        285
+    }
+
+    manpower=42456
+    buildings_max_level_factor=1.000
+    local_supplies=0.000
+
+    history={
+        owner = ENG
+        add_core_of = ENG
+    }
+}

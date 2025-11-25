@@ -1,0 +1,100 @@
+﻿division_template = {
+	name = "Dywizja Piechoty"
+	division_names_group = POL_INF_01
+
+	regiments = {
+		infantry = { x = 0 y = 2 }
+		infantry = { x = 1 y = 0 }
+		infantry = { x = 1 y = 1 }
+		infantry = { x = 1 y = 2 }
+		infantry = { x = 2 y = 0 }
+		infantry = { x = 2 y = 1 }
+		infantry = { x = 2 y = 2 }
+	}
+}
+
+
+units = {
+	######## Sztab Generalny Wojska Polskiego ########
+	### Armia Pomorze ###
+	division= {	
+		division_name = "Royal Guard Regiment"
+			is_name_ordered = yes
+			name_order = 4
+		}
+		location = 3544
+		division_template = "Dywizja Piechoty"
+		start_experience_factor = 0.5
+		start_equipment_factor = 0.6
+
+	}
+	division= {	
+		division_name = "Royal Guard Regiment"
+			is_name_ordered = yes
+			name_order = 4
+		}
+		location = 6296
+		division_template = "Dywizja Piechoty"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.5
+
+	}
+	division= {	
+		division_name = "Royal Guard Regiment"
+			is_name_ordered = yes
+			name_order = 4
+		}
+		location = 3320
+		division_template = "Dywizja Piechoty"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.2
+
+	}
+	division= {	
+		division_name = "Royal Guard Regiment"
+			is_name_ordered = yes
+			name_order = 4
+		}
+		location = 11399
+		division_template = "Dywizja Piechoty"
+		start_experience_factor = 0.5
+		start_equipment_factor = 0.9
+
+	}
+	division= {	
+		division_name = "Royal Guard Regiment"
+			is_name_ordered = yes
+			name_order = 4
+		}
+		location = 11370
+		division_template = "Dywizja Piechoty"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.5
+
+	}
+
+}
+
+#########################
+## STARTING PRODUCTION ##
+#########################
+instant_effect = {
+	add_equipment_production = {
+		equipment = {
+			type = infantry_equipment_0
+			creator = "POL"
+		}
+		requested_factories = 2
+		progress = 0.20
+		efficiency = 100
+	}
+	add_equipment_production = {
+		equipment = {
+			type = support_equipment_1
+			creator = "POL"
+		}
+		requested_factories = 1
+		progress = 0.20
+		efficiency = 100
+	}
+}

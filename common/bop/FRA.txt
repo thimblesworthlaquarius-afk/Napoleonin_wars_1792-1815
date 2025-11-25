@@ -1,0 +1,75 @@
+FRA_danton_jacobin_bop = {
+	initial_value = 0.25
+	left_side = FRA_danton_jacobin_bop_danton
+	right_side = FRA_danton_jacobin_bop_max
+	decision_category = FRA_danton_jacobin_decision
+
+	range = { #Balanced Range, neither Councils nor Cantons
+		id = FRA_danton_jacobin_bop_balanced 
+		min = -0.25
+		max = 0.25
+		modifier = {
+			political_advisor_cost_factor = -0.01
+		}
+	}
+
+	side = {
+		id = FRA_danton_jacobin_bop_danton
+		icon = GFX_bop_FRA_danton_side
+		range = {
+			id = FRA_danton_jacobin_bop_ro_full
+			min = 0.75
+			max = 1
+			modifier = {
+				war_support_factor = 0.30
+				stability_factor = -0.40
+				surrender_limit	= 0.2
+			}
+			on_activate = {
+			}
+		}
+		
+		range = {
+			id = FRA_jacobin_mid
+			min = 0.30
+			max = 0.75
+			modifier = {
+				war_support_factor = 0.20
+				stability_factor = -0.30
+				surrender_limit	= 0.1
+			}
+			on_activate = {
+			}
+		}
+	}
+
+	side = {
+		id = FRA_danton_jacobin_bop_max
+		icon = GFX_bop_FRA_jacobin_side
+		range = {
+			id = FRA_danton
+			min = -1
+			max = -0.75
+			modifier = {
+				stability_factor = 0.30
+				war_support_factor = -0.40
+				surrender_limit	= -0.2			
+			}
+			on_activate = {
+			}
+		}
+
+		range = {
+			id = FRA_danton_strong
+			min = -0.75
+			max = -0.25
+			modifier = {
+			    stability_factor = 0.15
+				war_support_factor = -0.20
+				surrender_limit	= -0.1
+			}
+			on_activate = {
+			}
+		}
+	}
+} 

@@ -1,0 +1,32 @@
+state = {
+    id = 161
+    name = "STATE_161"
+    resources = {
+        aluminium = 9
+    }
+
+    history = {
+        owner = MOD
+        controller = MOD
+        add_core_of = MOD
+
+     
+
+        buildings = {
+            infrastructure = 4
+            industrial_complex = 1
+            air_base = 2
+            6790 = {
+                naval_base = 2
+            }
+        }
+    }
+
+    provinces = {
+        3773 6790
+    }
+    manpower = 3202401
+    buildings_max_level_factor = 1.000
+    state_category = large_city
+    local_supplies = 0.000
+}

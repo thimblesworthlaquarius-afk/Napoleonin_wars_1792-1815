@@ -1,0 +1,16 @@
+characters={
+	ROR_council_1={
+		name="Parliament of Roman Republic"
+		portraits={
+			civilian={
+				large="gfx/leaders/CIS/CIS_parliament.dds"
+			}
+		}
+		country_leader={
+			ideology=authoritarian_democracy
+			traits={ dictator }
+			expire="1819.10.6.1"
+			id=-1
+		}
+	}
+}

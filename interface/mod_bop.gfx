@@ -1,0 +1,11 @@
+spriteTypes = {
+
+	SpriteType = {
+	name = "GFX_bop_FRA_danton_side"
+	texturefile = "gfx/interface/bop/FRA/FRA_danton_side.dds"			
+	}	
+	SpriteType = {
+	name = "GFX_bop_FRA_jacobin_side"
+	texturefile = "gfx/interface/bop/FRA/FRA_jacobin_side.dds"			
+	}
+}	

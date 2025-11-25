@@ -1,0 +1,55 @@
+capital = 112
+
+oob = POL_1936
+
+set_convoys = 88
+
+set_technology = {
+	infantry_weapons = 1
+
+set_research_slots = 3
+
+add_ideas = {
+	
+}
+
+set_politics = {
+	ruling_party = monarchist
+	last_election = "1890.5.1"
+	election_frequency = 48
+	elections_allowed = no
+}
+set_popularities = {
+	democratic = 20
+	authoritarian = 20
+	monarchist = 60
+	socialism = 0
+}
+add_ideas = {
+	catholic
+	POL_Constitution_of_May
+	POL_small_army
+}
+puppet = BRA
+
+recruit_character = POL_Stanislaw
+recruit_character = POL_Micha_Kazimierz_Oginski
+recruit_character = POL_jan_henryk_dabrowski
+recruit_character = POL_Stanislaw_new
+recruit_character = POL_tadeusz
+
+
+
+
+add_equipment_to_stockpile = {
+	type = infantry_equipment_0
+	amount = 1242
+	producer = POL
+}
+
+add_equipment_to_stockpile = {
+	type = support_equipment_1
+	amount = 421
+	producer = POL
+}
+

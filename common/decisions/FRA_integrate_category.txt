@@ -1,0 +1,287 @@
+FRA_integrate_category = {
+    FRA_integrate_rhine_state = {
+        icon = GFX_decision_generic_occupation
+
+        allowed = { original_tag = FRA }
+
+        cost = 50
+        fire_only_once = yes
+        cancel_if_invalid = yes
+        days_remove = 2
+		highlight_states = {
+			highlight_state_targets = { 
+			                            state = 42
+										state = 51
+										
+			} 
+		}
+
+        available = {
+            42 = {
+                is_controlled_by = FRA
+                compliance > 65
+                resistance < 30
+                NOT = { is_core_of = FRA }
+            }
+			51 = {
+                is_controlled_by = FRA
+                compliance > 65
+                resistance < 30
+                NOT = { is_core_of = FRA }
+            }
+			has_completed_focus = FRA_rhine_integration
+        }
+
+        complete_effect = {
+            FRA = {
+                add_state_core = 42
+				add_state_core = 51
+            }
+
+            add_stability = 0.02
+            add_political_power = -25
+        }
+
+        ai_will_do = { factor = 1 }
+    }
+	
+	FRA_offensive_state = {
+        icon = GFX_decision_generic_occupation
+
+        allowed = { original_tag = FRA }
+
+        cost = 50
+        fire_only_once = yes
+        cancel_if_invalid = yes
+        days_remove = 0
+
+        complete_effect = {
+			6 = {
+			    add_dynamic_modifier = {
+                    modifier = bel_offensive 
+                    scope   = FRA 
+                    days    = 230
+                }
+            }
+			8 = {
+				add_dynamic_modifier = { modifier = bel_offensive
+                    scope   = FRA 
+                    days    = 230
+                }
+            }
+			34 = {
+                add_dynamic_modifier = {
+                    modifier = bel_offensive 
+                    scope   = FRA 
+                    days    = 230
+                }
+            }
+			837 = {
+			    add_dynamic_modifier = {
+                    modifier = bel_offensive 
+                    scope   = FRA 
+                    days    = 230
+                }
+            }
+        }
+
+        ai_will_do = { factor = 1 }
+    }
+	
+	FRA_integrate_bel_state = {
+        icon = GFX_decision_generic_occupation
+
+        allowed = { original_tag = FRA }
+
+        cost = 50
+        fire_only_once = yes
+        cancel_if_invalid = yes
+        days_remove = 0
+		highlight_states = {
+			highlight_state_targets = { 
+			                            state = 6
+										state = 34
+										state = 8
+										state = 837
+										
+			} 
+		}
+
+        available = {
+            837 = {
+                is_controlled_by = FRA
+            }
+			34 = {
+                is_controlled_by = FRA
+            }
+			6 = {
+                is_controlled_by = FRA
+            }
+			8 = {
+                is_controlled_by = FRA
+            }
+			has_completed_focus = FRA_annex_belgium
+        }
+
+        complete_effect = {
+            FRA = {
+                add_state_core = 8
+				add_state_core = 6
+				add_state_core = 34
+				add_state_core = 837
+            }
+
+            add_stability = 0.02
+            add_political_power = -25
+        }
+
+        ai_will_do = { factor = 1 }
+    }
+	
+	FRA_integrate_savoy_state = {
+        icon = GFX_decision_generic_occupation
+
+        allowed = { original_tag = FRA }
+
+        cost = 100
+        fire_only_once = yes
+        cancel_if_invalid = yes
+        days_remove = 0
+		highlight_states = {
+			highlight_state_targets = { 
+			                        state = 158							
+			} 
+		}
+		
+		visible = {
+		    has_country_flag = FRA_intergate_savoy
+		}	
+
+        available = {
+            158 = {
+                is_controlled_by = FRA
+                compliance > 65
+                resistance < 30
+                NOT = { is_core_of = FRA }
+            }
+        }
+
+        complete_effect = {
+            FRA = {
+				add_state_core = 158
+            }
+
+            add_stability = 0.02
+            add_political_power = -25
+        }
+
+        ai_will_do = { factor = 1 }
+    }
+	
+	FRA_create_cisalpine_republic = {
+        icon = GFX_decision_generic_occupation
+
+        allowed = { original_tag = FRA }
+		   
+		    highlight_states = {
+		        highlight_state_targets = { 
+			                        state = 915
+									state = 911
+									state = 914
+									state = 159
+									state = 925
+										
+		        } 
+			} 	
+
+        cost = 50
+        fire_only_once = yes
+        cancel_if_invalid = yes
+        days_remove = 0
+		visible = {
+		    has_completed_focus = FRA_sister_republics
+		}
+
+        available = {
+            915 = {
+                is_controlled_by = FRA
+            }
+			911 = {
+                is_controlled_by = FRA
+            }
+			914 = {
+                is_controlled_by = FRA
+            }
+			159 = {
+                is_controlled_by = FRA
+            }
+			925 = {
+                is_controlled_by = FRA
+            }
+			has_completed_focus = FRA_sister_republics
+        }
+
+        complete_effect = {
+		    release_puppet = CIS
+            CIS = {
+                add_state_core = 915
+				add_state_core = 911
+				add_state_core = 914
+				add_state_core = 159
+				add_state_core = 925
+            }
+			CIS = {
+			
+			    transfer_state = 159
+                transfer_state = 914
+			    transfer_state = 911
+			    transfer_state = 915
+			    transfer_state = 925	
+			}	
+			hidden_effect = {
+			    CIS = {
+			        load_oob = CIS_1797
+				}	
+			}	
+
+            add_stability = -0.03
+            add_war_support = 0.05
+            add_political_power = -50
+        }
+
+        ai_will_do = { factor = 1 }
+    }
+	FRA_attack_ita_ge = {
+
+		icon = GFX_decision_category_generic_crisis
+		
+		available = {
+		    has_completed_focus = FRA_itallian_campaign
+		}	
+
+		visible = {
+			has_completed_focus = FRA_itallian_campaign
+		}
+		target_trigger = {
+            FROM = {
+                has_idea = INT_italian_identity
+            }
+        }
+
+		days_remove = 0
+
+		cost = 25
+
+		complete_effect = {
+			declare_war_on = {
+                target = FROM
+                type = annex_everything
+            }
+
+		}
+		fire_only_once = yes
+		ai_will_do = { factor = 1 }
+	}
+	
+
+}	

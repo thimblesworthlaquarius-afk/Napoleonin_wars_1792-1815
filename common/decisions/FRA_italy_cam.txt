@@ -1,0 +1,154 @@
+FRA_italy_cam = {
+
+	FRA_italy_cam_mission = {
+
+		icon = category_SOV_propaganda
+
+		activation = {
+            has_completed_focus = FRA_itallian_campaign
+        }
+		
+		available = {
+            158 = {
+                OR = {
+				  
+                    is_controlled_by = FRA
+					is_controlled_by = PIR
+				}
+            }
+			840 = {
+                OR = {
+				  
+                    is_controlled_by = FRA
+					IF = {
+					        GEN = {			
+					            is_subject_of = FRA
+							}	
+                        is_controlled_by = GEN
+                    }						
+				}
+            }
+			161 = {
+                OR = {
+				  
+                    is_controlled_by = FRA
+				}
+            }
+			159 = {
+                OR = {
+				  
+                    is_controlled_by = FRA
+					is_controlled_by = CIS
+				}
+            }
+			911 = {
+                OR = {
+				  
+                    is_controlled_by = FRA
+					is_controlled_by = CIS
+				}
+            }
+			162 = {
+                OR = {
+				  
+                    is_controlled_by = FRA
+				}
+            }
+			915 = {
+                OR = {
+				  
+                    is_controlled_by = FRA
+					is_controlled_by = CIS
+				}
+            }
+			157 = {
+                OR = {
+				  
+                    is_controlled_by = FRA
+					is_controlled_by = ROR
+				}
+            }
+			2 = {
+                OR = {
+				  
+                    is_controlled_by = FRA
+					is_controlled_by = ROR
+				}
+            }
+			117 = {
+			    OR = {
+				  
+                    is_controlled_by = FRA
+				}	
+            }
+			156 = {
+                OR = {
+				  
+                    is_controlled_by = FRA
+				}
+            }
+			115 = {
+                OR = {
+				  
+                    is_controlled_by = FRA
+				}
+            }
+				
+					
+          
+		  
+		}			
+        
+
+		visible = {
+			has_completed_focus = FRA_itallian_campaign
+		}
+		is_good = no
+		days_mission_timeout = 400
+		complete_effect = {
+            complete_national_focus = { focus = FRA_surprising_success }
+        }
+		timeout_effect = {
+            complete_national_focus = { focus = FRA_complete_fail }
+			hidden_effect = {
+			    FRA = {
+			        white_peace = PDS
+					white_peace = AUS
+					white_peace = LUC
+					white_peace = MOD
+					white_peace = PPL
+					white_peace = TUS
+					white_peace = NAP
+				}
+                PDS = {	
+                    transfer_state = 158
+                }
+                AUS = {
+                    transfer_state = 159
+                }	
+                MOD = {
+                    transfer_state = 161
+					transfer_state = 925
+                }				
+			    LUC = {
+                    transfer_state = 911
+                }
+				TUS = {
+                    transfer_state = 162
+                }
+				PPL = {
+                    transfer_state = 915
+					transfer_state = 2
+					transfer_state = 157
+                }
+				NAP = {
+                    transfer_state = 117
+					transfer_state = 115
+					transfer_state = 156
+                }
+            }				
+        }
+
+		fire_only_once = yes
+	}
+}

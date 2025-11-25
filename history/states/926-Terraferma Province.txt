@@ -1,0 +1,24 @@
+state = {
+	id = 926
+	name = "STATE_926"
+	provinces = {
+		599 11595
+	}
+	manpower = 13435
+	buildings_max_level_factor = 1.000
+	local_supplies = 0.000
+	state_category = city
+
+	history = {
+		owner = AUS
+		controller = AUS
+		add_core_of = AUS
+
+		buildings = {
+			infrastructure = 1
+			599 = {
+				naval_base = 2
+			}
+		}
+	}
+}

@@ -1,0 +1,41 @@
+capital = 681
+
+
+set_politics = {
+    ruling_party = authoritarian_democracy
+    elections_allowed = yes
+    election_frequency = 48
+    last_election = "1792.1.1"
+
+    stability = 0.45
+    war_support = 0.25
+}
+
+set_popularities = {
+    democratic = 0.70
+    neutrality = 0.20
+    communism = 0.05
+    fascism = 0.05
+}
+
+add_equipment_to_stockpile = {
+	type = infantry_equipment_0
+	amount = 22000
+	producer = ROS
+}
+
+add_equipment_to_stockpile = {
+	type = support_equipment_1
+	amount = 10000
+	producer = ROS
+}
+
+add_ideas = {
+    puppet
+}	
+
+################
+## CHARACTERS ##
+################
+
+recruit_character = ROS_hermanus

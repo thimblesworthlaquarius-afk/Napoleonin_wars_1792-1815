@@ -1,0 +1,82 @@
+spriteTypes = {
+	
+	spriteType = {
+		name = "GFX_report_french_republic"
+		texturefile = "gfx/event_pictures/report_french_republic.dds"
+	}
+
+	spriteType = {
+		name = "GFX_report_storming_the_tuileries"
+		texturefile = "gfx/event_pictures/report_storming_the_tuileries.dds"
+	}
+
+	spriteType = {
+		name = "GFX_news_event_001"
+		texturefile = "gfx/event_pictures/news_event_001.dds"
+	}
+
+	spriteType = {
+		name = "GFX_news_event_002"
+		texturefile = "gfx/event_pictures/news_event_002.dds"
+	}
+
+	spriteType = {
+		name = "GFX_news_event_004"
+		texturefile = "gfx/event_pictures/news_event_004.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_news_event_005"
+		texturefile = "gfx/event_pictures/news_event_005.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_news_event_poland_divied"
+		texturefile = "gfx/event_pictures/news_event_poland_divied.dds"
+	}
+
+	spriteType = {
+		name = "GFX_report_death_of_leopold"
+		texturefile = "gfx/event_pictures/report_death_of_leopold.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_rebirth_poland"
+		texturefile = "gfx/event_pictures/rebirth_poland.dds"
+	}
+	spriteType = {
+		name = "GFX_report_lafayette_flee"
+		texturefile = "gfx/event_pictures/report_lafayette_flee.dds"
+	}
+	spriteType = {
+		name = "GFX_report_trial_louisxvi"
+		texturefile = "gfx/event_pictures/report_trial_louisxvi.dds"
+	}
+	spriteType = {
+		name = "GFX_report_fate_swiss"
+		texturefile = "gfx/event_pictures/report_fate_swiss.dds"
+	}
+	spriteType = {
+		name = "GFX_report_fate_savoy"
+		texturefile = "gfx/event_pictures/report_fate_savoy.dds"
+	}
+	spriteType = {
+		name = "GFX_report_feminist_dead"
+		texturefile = "gfx/event_pictures/report_feminist_dead.dds"
+	}
+	spriteType = {
+		name = "GFX_report_The_Siege_of_Toulon_Begins"
+		texturefile = "gfx/event_pictures/report_The_Siege_of_Toulon_Begins.dds"
+	}
+	spriteType = {
+		name = "GFX_report_A_New_Commander_Napoleon_Bonaparte"
+		texturefile = "gfx/event_pictures/report_A_New_Commander_Napoleon_Bonaparte.dds"
+	}
+	spriteType = {
+		name = "GFX_report_lafayette_captured"
+		texturefile = "gfx/event_pictures/report_lafayette_cap.dds"
+	}
+
+}
+
+

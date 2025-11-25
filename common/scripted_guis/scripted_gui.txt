@@ -1,0 +1,27 @@
+scripted_gui = {
+
+  
+    fra_ireland_rebel_gui = {
+		window_name = "ireland_rebel_gui_window"
+		context_type = decision_category
+
+		visible = {
+		has_completed_focus = FRA_insight_a_revolt_in_connacht
+
+		}
+		triggers = {
+	        has_completed_focus = FRA_insight_a_revolt_in_connacht
+		    ireland_dub_control_bg_visible = {
+			    has_country_flag = ira_dub
+			}
+			ire_mod_67_bg_visible = {
+			    has_country_flag = ira_67
+			}
+		        
+        }
+
+		properties = {
+			
+		}
+	}
+}

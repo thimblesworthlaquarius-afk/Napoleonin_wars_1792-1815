@@ -1,0 +1,75 @@
+FRA_danton_jacobin_decision = {
+
+	FRA_Danton_rally = {
+
+		icon = category_SOV_propaganda
+
+		available = {
+
+		}
+
+		visible = {
+			always = yes
+		}
+
+		fire_only_once = no
+
+		modifier = {
+			
+		}
+
+		days_remove = 4
+		days_re_enable = 40
+
+		cost = 30
+
+		complete_effect = {
+			add_power_balance_value = {
+			    id = FRA_danton_jacobin_bop
+				value = -0.2
+			}	
+
+		}
+	}
+	FRA_max_rally = {
+
+		icon = category_SOV_propaganda
+		
+		activation = {
+            has_completed_focus = FRA_allow_dantons_reforms
+        }
+
+		available = {
+		
+		    NOT = {
+		        has_completed_focus = FRA_end_to_robes
+			}	
+
+		}
+
+		visible = {
+			always = yes
+		}
+
+		fire_only_once = no
+
+		modifier = {
+			
+		}
+		days_re_enable = 1
+
+		visible = {
+			has_completed_focus = FRA_allow_dantons_reforms
+		}
+		is_good = no
+		days_mission_timeout = 60
+
+		complete_effect = {
+			add_power_balance_value = {
+			    id = FRA_danton_jacobin_bop
+				value = 0.10
+			}	
+
+		}
+	}
+}

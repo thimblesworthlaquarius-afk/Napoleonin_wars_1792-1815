@@ -1,0 +1,23 @@
+state={
+    id=930
+    name="STATE_930"
+    provinces={
+        911
+    }
+    manpower=28000
+    buildings_max_level_factor=1.000
+    local_supplies=4.000
+	supply_node = yes
+
+    history={
+        owner = FRA
+        add_core_of = FRA
+		victory_points = {
+			911 8
+		}
+
+        buildings={
+            naval_fort = 3
+        }
+    }
+}

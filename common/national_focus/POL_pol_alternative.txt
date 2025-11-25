@@ -1,0 +1,75 @@
+focus_tree = {
+	id = POL_pol_alternative
+	continuous_focus_position = { x = 0 y = 1000 } 
+	country = {
+		factor = 0
+		modifier = {
+			add = 10
+			tag = POL
+		}
+	}
+
+	focus = {
+		id = POL_take_control
+		icon = GFX_focus_fra_le_deluge
+		x = 14
+		y = 0
+		cost = 4
+		completion_reward = {
+			remove_ideas = POL_panic
+		}
+	}
+	focus = {
+		id = POL_great_sejm
+		icon = GFX_focus_fra_le_deluge
+		x = 14
+		y = 2
+		cost = 7
+		prerequisite = { focus = POL_take_control }
+		completion_reward = {
+			add_ideas = POL_great_sejm 
+		}
+	}
+	focus = {
+		id = POL_get_lithuania_back
+		icon = GFX_focus_fra_le_deluge
+		x = 18
+		y = 4
+		cost = 6
+		prerequisite = { focus = POL_great_sejm }
+		completion_reward = {
+			declare_war_on = { type = annex_everything    target = LIT }
+		}
+	}
+	focus = {
+		id = POL_second_reo_force
+		icon = GFX_focus_fra_le_deluge
+		x = 18
+		y = 5
+		cost = 3
+		prerequisite = { focus = POL_get_lithuania_back }
+		completion_reward = {
+		swap_ideas = { 
+           remove_idea = POL_small_army_reforms
+           add_idea = POL_reo_for
+		
+		}
+	}
+	}
+	focus = {
+    id = POL_time_to_do
+    icon = GFX_focus_fra_le_deluge
+    x = 18
+    y = 7
+    cost = 10
+    prerequisite = { focus = POL_second_reo_force }
+
+    completion_reward = {
+        RUS = {
+        remove_puppet = POL
+    }
+        POL = {
+        set_global_flag = POL_im_free
+    }
+    }
+	}

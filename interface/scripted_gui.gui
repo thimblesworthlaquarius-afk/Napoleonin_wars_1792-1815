@@ -1,0 +1,51 @@
+guiTypes = {
+	
+	containerWindowType = {
+		name = "ireland_rebel_gui_window"
+		position = { x = 0 y = 0}	
+		size = { width = 800 height= 650 }
+		orientation = center
+		origo = center
+		fade_time = 100
+		moveable = yes
+		fade_type = linear
+		click_to_front = no
+		clipping = no
+		
+		background = {
+			name = "Background"		
+			quadTextureSprite ="GFX_ireland_rebel_background"
+		}
+
+		iconType ={
+			name ="ireland_dub_control_bg"
+			spriteType = "GFX_ireland_dub_control"
+			position = { x= 10 y = 10 }
+			Orientation = "UPPER_LEFT"
+		}	
+		
+		iconType ={
+			name ="ire_mod_67_bg"
+			spriteType = "GFX_ire_mod_67"
+			position = { x= 10 y = 10 }
+			Orientation = "UPPER_LEFT"
+		}
+		iconType ={
+			name ="iree_34_bg"
+			spriteType = "GFX_iree_34"
+			position = { x= 10 y = 10 }
+			Orientation = "UPPER_LEFT"
+		}
+
+		instantTextboxType = {
+			name = "political_title"
+			position = { x = 45 y = 8 }
+			font = "hoi_36header"
+			borderSize = {x = 0 y = 0}
+			text = "POLITICAL_POLITICAL"
+			maxWidth = 400
+			maxHeight = 20
+			fixedsize = yes
+		}
+	}
+}

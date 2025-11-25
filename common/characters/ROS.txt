@@ -1,0 +1,16 @@
+characters={
+	ROS_hermanus={
+		name="Hermanus Steyn"
+		portraits={
+			civilian={
+				large="gfx/leaders/ROS/ROS_hermanus.dds"
+			}
+		}
+		country_leader={
+			ideology=authoritarian_democracy
+			traits={  }
+			expire="1819.10.6.1"
+			id=-1
+		}
+	}
+}
