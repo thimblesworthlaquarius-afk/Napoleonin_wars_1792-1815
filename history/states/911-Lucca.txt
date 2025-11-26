@@ -8,13 +8,13 @@ state = {
     buildings_max_level_factor = 1.000
     state_category = rural
     local_supplies = 0.000
+	victory_points = {
+            6973 40
+    }
 
     history = {
         owner = LUC
         controller = LUC
         add_core_of = LUC
-		victory_points = {
-            6973 40
-        }
     }
 }
