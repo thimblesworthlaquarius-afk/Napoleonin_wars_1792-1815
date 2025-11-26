@@ -9,9 +9,6 @@ ideas = {
 
 			available = {
 				always = no
-				NOT = {
-					is_puppet = yes
-				}
 			}
 			
 			removal_cost = -1
@@ -26,8 +23,6 @@ ideas = {
 
 			allowed_to_remove = {
 				}
-
-			cancel_if_invalid = yes
 		}
 
 		constitutional = {
@@ -51,19 +46,11 @@ ideas = {
 
 
 			}
-
-			allowed_to_remove = {
-				}
-
-			cancel_if_invalid = yes
 		}
 
 		no_monarch = {
 			available = {
 			    always = no
-				NOT = {
-					is_puppet = yes
-				}
 			}
 			
 			cost = 200
@@ -81,8 +68,6 @@ ideas = {
 
 			allowed_to_remove = {
 			}
-
-			cancel_if_invalid = yes
 		}
 
 		puppet = {
@@ -102,7 +87,5 @@ ideas = {
 
 			allowed_to_remove = {
 			}
-
-			cancel_if_invalid = yes
 	}
 }
