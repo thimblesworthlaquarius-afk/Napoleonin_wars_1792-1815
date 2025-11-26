@@ -1,4 +1,4 @@
-capital = 4
+capital = 933
 oob = AUS_1936
 
 1792.1.1 = {
