@@ -1,7 +1,6 @@
 ﻿capital = 306
 
 
-
 # Starting tech
 set_technology = {
 	infantry_weapons = 1
@@ -18,5 +17,5 @@ set_politics = {
 }
 set_popularities = {
 	democratic = 1
-	monarchist = 99
+	monarchist = monarchist
 }
