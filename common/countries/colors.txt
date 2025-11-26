@@ -175,6 +175,10 @@ TUR = {
 	color = rgb { 160 24 0 }
 	color_ui = rgb { 160 24 0 }
 }
+ALG = {
+	color = rgb { 160 24 0 }
+	color_ui = rgb { 160 24 0 }
+}
 GRE = {
 	color = rgb { 93 181 227 }
 	color_ui = rgb { 121 235 255 }

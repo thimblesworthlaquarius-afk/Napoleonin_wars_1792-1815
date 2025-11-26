@@ -1,14 +1,9 @@
-capital = 797
+capital = 459
 
 
 set_convoys = 300
 
 add_ideas = {
-}
-	
-1792.1.1 = {
-	 set_capital = {state = 797} 
-     remember_old_capital = yes
 }
 	
 
@@ -27,12 +22,10 @@ set_popularities = {
 
 
 add_ideas = {
-    absolute
+    puppet
 	sunni
 	mildintervention
 }
-puppet = ALG
-give_guarantee = ALG
 
 recruit_character = TUR_Selim_III
 
