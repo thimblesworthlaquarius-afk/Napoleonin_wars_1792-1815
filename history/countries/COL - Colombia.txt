@@ -1,5 +1,6 @@
 ﻿capital = 306
 
+set_cosmetic_tag = NGA_COL
 
 # Starting tech
 set_technology = {
@@ -17,5 +18,5 @@ set_politics = {
 }
 set_popularities = {
 	democratic = 1
-	monarchist = monarchist
+	monarchist = 99
 }
