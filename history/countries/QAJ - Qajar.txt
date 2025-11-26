@@ -1,8 +1,9 @@
-capital = 64
+capital = 266
 
 set_convoys = 300
 
 add_ideas = {
+    absolute
 	
 }
 
