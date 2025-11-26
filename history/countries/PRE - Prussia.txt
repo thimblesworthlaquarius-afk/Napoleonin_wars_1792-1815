@@ -8,7 +8,7 @@ set_convoys = 300
 
 set_politics = {
 	ruling_party = monarchist
-	last_election = "1890.5.1"
+	last_election = "1444.5.1"
 	election_frequency = 48
 	elections_allowed = no
 }
@@ -16,7 +16,6 @@ set_popularities = {
 	democratic = 20
 	authoritarian = 20
 	monarchist = 60
-	socialism = 0
 }
 give_guarantee = AUS
 	add_ideas = {
@@ -24,6 +23,20 @@ give_guarantee = AUS
 		mildintervention
 		absolute
 	}
+}
+add_equipment_to_stockpile = {
+    type = infantry_equipment_0
+    amount = 40000
+    producer = PRE
+}
+
+add_equipment_production = {
+    equipment = {
+        type = infantry_equipment_0
+    }
+    requested_factories = 10
+    progress = 0.95
+    amount = 1
 }
 
 recruit_character = PRE_Frederick_William_II

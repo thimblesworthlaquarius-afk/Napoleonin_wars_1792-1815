@@ -1,8 +1,10 @@
-capital = 64
+capital = 911
 
 set_convoys = 300
 
 add_ideas = {
+   no_monarch
+   catholic
 	
 }
 

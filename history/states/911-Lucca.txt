@@ -13,5 +13,8 @@ state = {
         owner = LUC
         controller = LUC
         add_core_of = LUC
+		victory_points = {
+            6973 40
+        }
     }
 }

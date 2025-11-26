@@ -4,7 +4,7 @@ focus_tree = {
 	country = {
 		factor = 0
 		modifier = {
-			add = 10
+			add = 100
 			tag = FRA
 		}
 	}
@@ -55,7 +55,6 @@ focus_tree = {
 			FOCUS_FILTER_POLITICAL
 		}
 		completion_reward = {
-		country_event = { id = super.1 = 0 }
 			declare_war_on = {
   			target = AUS
    		    type = annex_everything
@@ -127,137 +126,6 @@ focus_tree = {
 			set_cosmetic_tag = REV_FRA
 		}
 	}
-
-focus = {
-		id = FRA_dissolve_the_constitutional_guard
-		icon = GFX_focus_generic_military_dictatorship
-		mutually_exclusive = { focus = FRA_keep_the_constitutional_guard }
-		x = 8
-		y = 3
-		cost = 5.8
-		prerequisite = { focus = FRA_establish_the_constitutional_guard }
-		search_filters = { FOCUS_FILTER_POLITICAL }		
-		completion_reward = {		
-			remove_ideas = FRA_Constitutional_Guard
-		}
-	}
-
-focus = {
-		id = FRA_sans_cullotes_in_the_army
-		icon = GFX_focus_generic_diplomatic_treaty
-		x = 8
-		y = 4
-		cost = 10
-		prerequisite = { focus = FRA_dissolve_the_constitutional_guard }
-		search_filters = {
-			FOCUS_FILTER_POLITICAL
-		}		
-		completion_reward = {		
-		}
-	}
-
-	#######################
-	## Kingdom of France ##
-	#######################
-
-	focus = {
-		id = FRA_establish_the_constitutional_guard
-		icon = GFX_focus_the_constitutional_guard
-		x = 8
-		y = 2
-		cost = 10
-		prerequisite = { focus = FRA_the_peasant_revolt_escalates }
-
-		search_filters = {
-			FOCUS_FILTER_POLITICAL
-		}
-		completion_reward = {		
-			add_ideas = FRA_Constitutional_Guard
-		}
-	}
-	
-
-	focus = {
-		id = FRA_keep_the_constitutional_guard
-		icon = GFX_focus_generic_monarchy_1
-		mutually_exclusive = { focus = FRA_dissolve_the_constitutional_guard }
-		x = 11
-		y = 3
-		cost = 10
-		prerequisite = { focus = FRA_establish_the_constitutional_guard }
-
-		search_filters = {
-			FOCUS_FILTER_POLITICAL
-		}
-		completion_reward = {		
-			}
-		}
-
-	focus = {
-		id = FRA_army_for_the_soldiers
-		icon = GFX_goal_rhineland
-		x = 11
-		y = 4
-		cost = 10
-		prerequisite = { focus = FRA_keep_the_constitutional_guard }
-
-		search_filters = {
-			FOCUS_FILTER_POLITICAL
-		}
-		completion_reward = {		
-			}
-		}
-
-	focus = {
-		id = FRA_counter_the_sans_cullotes
-		icon = GFX_goal_generic_dangerous_deal
-		x = 11
-		y = 5
-		cost = 10
-		prerequisite = { focus = FRA_army_for_the_soldiers }
-
-		search_filters = {
-			FOCUS_FILTER_POLITICAL
-		}
-		completion_reward = {		
-			}
-		}
-
-	focus = {
-		id = FRA_dissolve_the_national_guard
-		icon = GFX_focus_focus_fra_fascist_threat
-		x = 11
-		y = 6
-		cost = 10
-		prerequisite = { focus = FRA_counter_the_sans_cullotes }
-
-		search_filters = {
-			FOCUS_FILTER_POLITICAL
-		}
-		completion_reward = {		
-			}
-		}
-	
-
-	focus = {
-		id = FRA_royalist_officers
-		icon = GFX_focus_rom_royal_dictatorship
-		x = 11
-		y = 7
-		cost = 10
-		prerequisite = { focus = FRA_dissolve_the_national_guard }
-
-		search_filters = {
-			FOCUS_FILTER_POLITICAL
-		}
-		completion_reward = {	
-			#load_focus_tree = FRA_Kingdom
-			}
-		}
-	
-
-	# Kindom of france tree switchover #
-
 
 
 }

@@ -8,7 +8,6 @@ ideas = {
 
 
 			available = {
-				has_government = monarchist
 				always = no
 				NOT = {
 					is_puppet = yes
@@ -63,7 +62,6 @@ ideas = {
 			available = {
 			    always = no
 				NOT = {
-					has_government = monarchist
 					is_puppet = yes
 				}
 			}

@@ -49,5 +49,13 @@ spriteTypes = {
 		name = "GFX_idea_confucian"
 		texturefile = "gfx/interface/ideas/idea_confucian.dds"
 	}
+	spriteType = {
+		name = "GFX_idea_atheism"
+		texturefile = "gfx/interface/ideas/idea_atheism.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_cult_of_supreme_being"
+		texturefile = "gfx/interface/ideas/idea_cult_of_supreme_being.dds"
+	}
 
 }

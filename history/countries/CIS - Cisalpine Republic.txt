@@ -12,16 +12,22 @@ set_politics = {
 }
 
 set_popularities = {
-    democratic = 0.70
+    authoritarian_democracy = 0.70
     neutrality = 0.20
-    communism = 0.05
-    fascism = 0.05
 }
 
 add_equipment_to_stockpile = {
 	type = infantry_equipment_0
-	amount = 22000
+	amount = 40000
 	producer = CIS
+}
+add_equipment_production = {
+    equipment = {
+        type = infantry_equipment_0
+    }
+    requested_factories = 10
+    progress = 0.95
+    amount = 1
 }
 
 add_equipment_to_stockpile = {

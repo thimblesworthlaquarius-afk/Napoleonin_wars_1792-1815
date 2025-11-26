@@ -8,6 +8,7 @@ ideas = {
 
 
 			available = {
+			    always = no
 					}
 			
 			cost = 150
@@ -28,6 +29,7 @@ ideas = {
 
 
 			available = {
+			   always = no
 			}
 		
 			cost = 250
@@ -49,6 +51,7 @@ ideas = {
 
 
 			available = {
+			    always = no
 			}
 		
 			cost = 300
@@ -70,6 +73,7 @@ ideas = {
 
 
 			available = {
+			    always = no
 			}
 		
 			cost = 400

@@ -6,9 +6,7 @@ ideas = {
 
 		catholic = {
 			available = {
-				any_neighbor_country = {
-				    has_idea = catholic
-				}
+			    always = no
 				NOT = {
 					OR = {
 						has_idea = sunni
@@ -19,6 +17,8 @@ ideas = {
 						has_idea = shinto
 						has_idea = orthodox
 						has_idea = sikh
+						has_idea = atheism
+						has_idea = cult_of_supreme_being
 					}
 				}
 			}
@@ -46,9 +46,7 @@ ideas = {
 
 		protestant = {
 			available = {
-				any_neighbor_country = {
-				    has_idea = protestant
-			}
+				always = no
 				NOT = {
 					OR = {
 						has_idea = sunni
@@ -59,6 +57,8 @@ ideas = {
 						has_idea = shinto
 						has_idea = orthodox
 						has_idea = sikh
+						has_idea = atheism
+						has_idea = cult_of_supreme_being
 					}
 				}
 			}
@@ -90,9 +90,7 @@ ideas = {
 
 		orthodox = {
 			available = {
-				any_neighbor_country = {
-				    has_idea = orthodox
-				}
+				always = no
 				NOT = {
 					OR = {
 						has_idea = sunni
@@ -104,6 +102,8 @@ ideas = {
 						has_idea = catholic
 						has_idea = protestant
 						has_idea = sikh
+						has_idea = atheism
+						has_idea = cult_of_supreme_being
 					}
 				}
 			}
@@ -134,9 +134,7 @@ ideas = {
 
 		sunni = {
 			available = {
-				any_neighbor_country = {
-					has_idea = sunni
-			}
+				always = no
 				NOT = {
 					OR = {
 						has_idea = orthodox
@@ -147,6 +145,8 @@ ideas = {
 						has_idea = catholic
 						has_idea = protestant
 						has_idea = sikh
+						has_idea = atheism
+						has_idea = cult_of_supreme_being
 					}
 				}
 			}
@@ -178,9 +178,7 @@ ideas = {
 		
 		shia = {
 			available = {
-				any_neighbor_country = {
-					has_idea = shia
-			}
+				always = no
 				NOT = {
 					OR = {
 						has_idea = orthodox
@@ -191,6 +189,8 @@ ideas = {
 						has_idea = catholic
 						has_idea = protestant
 						has_idea = sikh
+						has_idea = atheism
+						has_idea = cult_of_supreme_being
 					}
 				}
 			}
@@ -221,9 +221,7 @@ ideas = {
 
 		jewish = {
 			available = {
-				any_neighbor_country = {
-				    has_idea = jewish
-				}
+				always = no
 				NOT = {
 					OR = {
 						has_idea = orthodox
@@ -235,6 +233,8 @@ ideas = {
 						has_idea = catholic
 						has_idea = protestant
 						has_idea = sikh
+						has_idea = atheism
+						has_idea = cult_of_supreme_being
 					}
 				}
 			}
@@ -265,9 +265,7 @@ ideas = {
 
 		hindu = {
 			available = {
-				any_neighbor_country = {
-				    has_idea = hindu
-				}
+				always = no
 				NOT = {
 					OR = {
 						has_idea = orthodox
@@ -279,6 +277,8 @@ ideas = {
 						has_idea = catholic
 						has_idea = protestant
 						has_idea = sikh
+						has_idea = atheism
+						has_idea = cult_of_supreme_being
 					}
 				}
 			}
@@ -310,9 +310,7 @@ ideas = {
 		
 		sikh = {
 			available = {
-				any_neighbor_country = {
-				    has_idea = sikh
-				}
+				always = no
 				NOT = {
 					OR = {
 						has_idea = orthodox
@@ -324,6 +322,8 @@ ideas = {
 						has_idea = catholic
 						has_idea = protestant
 						has_idea = hindu
+						has_idea = atheism
+						has_idea = cult_of_supreme_being
 					}
 				}
 			}
@@ -354,9 +354,7 @@ ideas = {
 
 		shinto = {
 			available = {
-				any_neighbor_country = {
-				    has_idea = shinto
-				}
+				always = no
 				NOT = {
 					OR = {
 						has_idea = orthodox
@@ -368,6 +366,8 @@ ideas = {
 						has_idea = catholic
 						has_idea = protestant
 						has_idea = hindu
+						has_idea = atheism
+						has_idea = cult_of_supreme_being
 					}
 				}
 			}
@@ -398,9 +398,7 @@ ideas = {
 
 		confucian = {
 			available = {
-				any_neighbor_country = {
-				    has_idea = confucian
-				}
+				always = no
 				NOT = {
 					OR = {
 						has_idea = orthodox
@@ -412,6 +410,8 @@ ideas = {
 						has_idea = catholic
 						has_idea = protestant
 						has_idea = hindu
+						has_idea = atheism
+						has_idea = cult_of_supreme_being
 					}
 				}
 			}
@@ -431,7 +431,92 @@ ideas = {
 			modifier = {
 				recruitable_population = 0.02
 				stability = 0.1
-				war_support_factor -0.1
+				war_support_factor = -0.1
+			}
+
+			allowed_to_remove = {
+				}
+
+			cancel_if_invalid = no
+		}
+		atheism = {
+			available = {
+				always = no
+				NOT = {
+					OR = {
+						has_idea = orthodox
+						has_idea = jewish
+						has_idea = shia
+						has_idea = sunni
+						has_idea = shinto
+						has_idea = sikh
+						has_idea = catholic
+						has_idea = protestant
+						has_idea = hindu
+						has_idea = cult_of_supreme_being
+					}
+				}
+			}
+
+			on_add = {
+				every_other_country = {
+					limit = { has_idea = atheism }
+					add_opinion_modifier = {
+						target = PREV
+						modifier = large_increase
+					}	
+				}		
+			}
+
+			removal_cost = -1
+
+			modifier = {
+				research_speed_factor = 0.03
+				political_power_factor = 0.05
+				stability_factor = -0.1
+			}
+
+			allowed_to_remove = {
+				}
+
+			cancel_if_invalid = no
+		}
+		cult_of_supreme_being = {
+			available = {
+				always = no
+				NOT = {
+					OR = {
+						has_idea = orthodox
+						has_idea = jewish
+						has_idea = shia
+						has_idea = sunni
+						has_idea = shinto
+						has_idea = sikh
+						has_idea = catholic
+						has_idea = protestant
+						has_idea = hindu
+						has_idea = atheism
+					}
+				}
+			}
+
+			on_add = {
+				every_other_country = {
+					limit = { has_idea = cult_of_supreme_being }
+					add_opinion_modifier = {
+						target = PREV
+						modifier = large_increase
+					}	
+				}		
+			}
+
+			removal_cost = -1
+
+			modifier = {
+				drift_defence_factor = 0.15
+				political_power_factor = 0.08
+				consumer_goods_factor = 0.1
+				research_speed_factor = -0.02
 			}
 
 			allowed_to_remove = {

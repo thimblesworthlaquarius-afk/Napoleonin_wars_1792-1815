@@ -1,4 +1,4 @@
-capital = 4
+capital = 6
 
 set_convoys = 300
 add_ideas = {

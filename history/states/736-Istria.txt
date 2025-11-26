@@ -13,6 +13,9 @@ state = {
 		owner = VNI
 		controller = VNI
 		add_core_of = VNI
+		victory_points = {
+            6626 8
+        }
 
 		buildings = {
 			infrastructure = 1
