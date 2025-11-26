@@ -1,0 +1,23 @@
+﻿capital = 282
+
+# Starting Stats
+set_stability = 0.2 # Was one of the countries in roughest internal shape at this point in time, coup happens not even 2 months into the game
+set_war_support = 0.6 # Was 0.8, but will make you have to scale up with Militarism a bit
+
+add_ideas = {
+    civilian_economy
+	limited_conscription
+	closed_economy	
+	shinto
+	absolute
+	splendidisolation
+}
+set_politics = {
+	ruling_party = monarchist
+	last_election = "1500.5.1"
+	election_frequency = 48
+	elections_allowed = no
+}
+set_popularities = {
+	monarchist = 100
+}
