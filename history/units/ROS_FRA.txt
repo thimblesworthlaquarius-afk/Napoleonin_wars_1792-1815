@@ -1,0 +1,97 @@
+﻿division_template = {
+	name = "Swellendam Division"
+
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 0 y = 2 }
+		infantry = { x = 0 y = 3 }
+	}
+	support = {
+  	      engineer = { x = 0 y = 0 }
+ 	}
+}
+division_template = {
+	name = "Swellendam Housemen"
+
+	regiments = {
+		lancers = { x = 0 y = 0 }
+		lancers = { x = 0 y = 1 }
+		lancers = { x = 1 y = 0 }
+		lancers = { x = 1 y = 1 }
+	}
+}
+
+units = {
+
+	division= {
+		division_name = {
+				is_name_ordered = yes
+				name_order = 1
+		}
+		location = 12589
+		division_template = "Swellendam Division"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.5
+
+	}
+	division= {
+		division_name = {
+				is_name_ordered = yes
+				name_order = 2
+		}
+		location = 12589
+		division_template = "Swellendam Division"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.5
+
+	}
+	division= {
+		division_name = {
+				is_name_ordered = yes
+				name_order = 3
+		}
+		location = 10400
+		division_template = "Swellendam Division"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.5
+
+	}
+	division= {
+		division_name = {
+				is_name_ordered = yes
+				name_order = 4
+		}
+		location = 10400
+		division_template = "Swellendam Division"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.5
+
+	}
+}
+
+
+
+
+
+
+instant_effect = {
+	add_equipment_production = {
+		equipment = {
+			type = infantry_equipment_0
+			creator = "ROS"
+		}
+		requested_factories = 1
+		progress = 0.59
+		efficiency = 100
+	}
+	add_equipment_production = {
+		equipment = {
+			type = support_equipment_1
+			creator = "ROS"
+		}
+		requested_factories = 1
+		progress = 0.22
+		efficiency = 100
+	}
+}
