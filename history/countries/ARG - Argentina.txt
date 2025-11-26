@@ -1,4 +1,4 @@
-capital = 50
+capital = 278
 
 set_cosmetic_tag = RLP_ARG
 
