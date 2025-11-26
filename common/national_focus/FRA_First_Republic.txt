@@ -315,8 +315,7 @@ focus_tree = {
 			FOCUS_FILTER_POLITICAL
 		}
 		completion_reward = {		
-			add_political_power = 20
-			add_ideas = FRA_National_Convention			
+			add_political_power = 20		
 			remove_country_leader = yes
 			add_country_leader_role = {
 				character = FRA_national_convention
@@ -567,6 +566,7 @@ focus_tree = {
 		completion_reward = {	
 	        add_stability = -0.10
 			add_political_power = 50
+			set_country_flag = FRA_reign_of_terror
 			
 		}
 	}

@@ -276,6 +276,26 @@ country_event = {
 		}	
 	}
 }
+country_event = {
+	id = france.503
+	title = france.503.a
+	desc = france.503.b
+	picture = GFX_report_girodin_female_dead
+	fire_only_once = yes
+	
+	trigger = {
+	    tag = FRA
+		has_country_flag = FRA_reign_of_terror
+	}	
+	
+	option = {
+		name = france.503.c
+		add_manpower = -1			
+		ai_chance = {
+			factor = 80	
+		}	
+	}
+}
 
 
 

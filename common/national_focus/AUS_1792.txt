@@ -477,7 +477,6 @@ focus_tree = {
 		}
 		prerequisite = { focus = AUS_under_the_french_threat }
 		relative_position_id = AUS_austrian_netherlands
-		mutually_exclusive = { focus = AUS_surrender_the_netherlands }
 
 		completion_reward = {		
 				add_war_support = 0.05
@@ -544,27 +543,6 @@ focus_tree = {
 					type = annex_everything
 					target = BEL
 				}	
-			}
-		}
-	}
-
-	focus = {
-		id = AUS_surrender_the_netherlands
-		icon = GFX_AUS_focus_surrender_the_netherlands
-		x = -3
-		y = 2
-		cost = 5
-		search_filters = {
-			FOCUS_FILTER_POLITICAL
-		}
-		prerequisite = { focus = AUS_under_the_french_threat }
-		relative_position_id = AUS_austrian_netherlands
-		mutually_exclusive = { focus = AUS_ban_thought_of_unification }
-
-		completion_reward = {	
-		
-			FRA = {
-				country_event = france.3
 			}
 		}
 	}

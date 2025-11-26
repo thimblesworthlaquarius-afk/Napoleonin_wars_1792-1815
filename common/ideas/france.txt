@@ -51,22 +51,6 @@ ideas = {
 		}
 	}
 
-	FRA_National_Convention = {
-		picture = spa_carlism
-		allowed = {
-			original_tag = FRA
-			always = no
-		}
-
-		removal_cost = -1
-		
-		modifier = {
-			political_power_gain = 0.20
-			stability_weekly = 0.02
-			
-		}
-	}
-
 	FRA_Napoleon = {
 		picture = spa_carlism
 		allowed = {

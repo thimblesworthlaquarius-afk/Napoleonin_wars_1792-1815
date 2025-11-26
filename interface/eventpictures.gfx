@@ -76,6 +76,10 @@ spriteTypes = {
 		name = "GFX_report_lafayette_captured"
 		texturefile = "gfx/event_pictures/report_lafayette_cap.dds"
 	}
+	spriteType = {
+		name = "GFX_report_girodin_female_dead"
+		texturefile = "gfx/event_pictures/report_girodin_female_dead.dds"
+	}
 
 }
 
