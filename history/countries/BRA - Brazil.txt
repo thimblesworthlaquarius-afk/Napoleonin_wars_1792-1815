@@ -4,21 +4,18 @@ set_convoys = 300
 set_cosmetic_tag = POB_BRA
 
 add_ideas = {
+    puppet
 
 }
 
 set_politics = {
-	ruling_party = Tribalism
-	last_election = "1890.5.1"
+	ruling_party = monarchist
+	last_election = "1444.5.1"
 	election_frequency = 48
 	elections_allowed = no
 }
 set_popularities = {
-	democratic = 5
-	authoritarian = 15
-	Tribalism = 50
-	monarchist = 20
-	socialism = 10
+	monarchist = 100
 }
 
 add_ideas = {

@@ -23,6 +23,7 @@ ideas = {
 
 			allowed_to_remove = {
 				}
+			cancel_if_invalid = no	
 		}
 
 		constitutional = {
@@ -46,6 +47,7 @@ ideas = {
 
 
 			}
+			cancel_if_invalid = no
 		}
 
 		no_monarch = {
@@ -68,6 +70,7 @@ ideas = {
 
 			allowed_to_remove = {
 			}
+			cancel_if_invalid = no
 		}
 
 		puppet = {
@@ -87,5 +90,6 @@ ideas = {
 
 			allowed_to_remove = {
 			}
+			cancel_if_invalid = no
 	}
 }

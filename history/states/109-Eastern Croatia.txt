@@ -12,10 +12,8 @@ state = {
 		victory_points = {
 			11581 3 
 		}
-		add_core_of = YUG
 		add_core_of = CRO
-		add_core_of = AUS
-		controller = AUS
+		add_core_of = AUS	
 	}
 	provinces = {
 		624 3592 3596 3627 6647 9595 9611 11577 11580 11581 11594

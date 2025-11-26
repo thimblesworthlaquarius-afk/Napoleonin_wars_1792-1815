@@ -2,14 +2,6 @@ capital = 797
 
 
 set_convoys = 300
-
-add_ideas = {
-}
-	
-1792.1.1 = {
-	 set_capital = {state = 797} 
-     remember_old_capital = yes
-}
 	
 
 
