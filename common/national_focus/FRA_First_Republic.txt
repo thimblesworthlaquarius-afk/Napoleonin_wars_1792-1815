@@ -938,7 +938,7 @@ focus_tree = {
 		icon = GFX_FRA_sister_republic
 		x = -2
 		y = 2
-		cost = 5
+		cost = 3
 		search_filters = { FOCUS_FILTER_POLITICAL }	
 		prerequisite = { focus = FRA_annex_belgium }
 		relative_position_id = FRA_promote_napoleon
@@ -954,7 +954,7 @@ focus_tree = {
 		icon = GFX_FRA_south_republic
 		x = -16
 		y = 3
-		cost = 3.5
+		cost = 1
 		search_filters = { FOCUS_FILTER_POLITICAL }	
 		prerequisite = { focus = FRA_sister_republics }
 		relative_position_id = FRA_promote_napoleon
@@ -984,6 +984,7 @@ focus_tree = {
 					controls_state = 157
                 }
             }
+			has_global_flag = FRA_italy_win
         }
 		completion_reward = {	
 			release_puppet = ROR
@@ -1034,6 +1035,9 @@ focus_tree = {
 		cost = 2
 		search_filters = { FOCUS_FILTER_POLITICAL }	
 		prerequisite = { focus = FRA_southern_republics }
+		available = {
+            date > 1797.1.1
+        }
 		relative_position_id = FRA_promote_napoleon
 		completion_reward = {	
 			SWI = {
@@ -1099,7 +1103,7 @@ focus_tree = {
 	}
 
 	focus = {
-		id = FRA_ligurian_republic
+		id = FRA_fate_genoa
 		icon = GFX_focus_fra_le_deluge
 		x = -20
 		y = 4
@@ -1117,14 +1121,15 @@ focus_tree = {
                     controls_state = 840
                 }
             }
+			has_global_flag = FRA_italy_win
         }
 
 
 		completion_reward = {
-			release_puppet = GEN
-			GEN = {
-				set_cosmetic_tag = LIG_GEN
-			}	
+            FRA = {
+                country_event = { id = france.504 days = 1 }
+            }
+	
 		}
 	}
 
@@ -1135,7 +1140,7 @@ focus_tree = {
 		y = 5
 		cost = 5.5
 		search_filters = { FOCUS_FILTER_POLITICAL }	
-		prerequisite = { focus = FRA_ligurian_republic }
+		prerequisite = { focus = FRA_fate_genoa }
 		relative_position_id = FRA_promote_napoleon
 		completion_reward = {
             ENG = {

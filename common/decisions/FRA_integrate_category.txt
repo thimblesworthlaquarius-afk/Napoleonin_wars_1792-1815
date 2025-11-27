@@ -61,7 +61,7 @@ FRA_integrate_category = {
                 resistance < 30
                 NOT = { is_core_of = FRA }
             }
-			has_country_flag
+			has_country_flag = FRA_intergate_genoa
         }
 
         complete_effect = {

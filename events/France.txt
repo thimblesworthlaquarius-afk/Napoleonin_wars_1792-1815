@@ -296,6 +296,34 @@ country_event = {
 		}	
 	}
 }
+country_event = {
+	id = france.504
+	title = france.504.a
+	desc = france.504.b
+	picture = GFX_report_girodin_female_dead
+	fire_only_once = yes
+	is_triggered_only = yes	
+	
+	option = {
+		name = france.504.c
+        release_puppet = GEN
+		GEN = {
+		    set_cosmetic_tag = LIG_GEN
+		    transfer_state = 840
+	    }			
+		ai_chance = {
+			factor = 70	
+		}	
+	}
+	
+	option = {
+		name = france.504.d
+        set_country_flag = FRA_intergate_genoa			
+		ai_chance = {
+			factor = 30
+		}	
+	}
+}
 
 
 

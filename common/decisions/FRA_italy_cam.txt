@@ -107,13 +107,47 @@ FRA_italy_cam = {
 		days_mission_timeout = 400
 		complete_effect = {
             complete_national_focus = { focus = FRA_surprising_success }
-        }
+			set_global_flag = FRA_italy_win
+			hidden_effect = {
+			    FRA = {
+			        white_peace = PDS
+					white_peace = LUC
+					white_peace = MOD
+					white_peace = PPL
+					white_peace = TUS
+					white_peace = NAP
+				}
+				annex_country = {
+                    target = LUC
+                    transfer_troops = no
+                }
+				annex_country = {
+                    target = MOD
+                    transfer_troops = no
+                }
+				annex_country = {
+                    target = PPL
+                    transfer_troops = no
+                }
+				annex_country = {
+                    target = TUS
+                    transfer_troops = no
+                }
+				annex_country = {
+                    target = NAP
+                    transfer_troops = no
+                }
+				annex_country = {
+                    target = GEN
+                    transfer_troops = no
+                }
+            }
+		}
 		timeout_effect = {
             complete_national_focus = { focus = FRA_complete_fail }
 			hidden_effect = {
 			    FRA = {
 			        white_peace = PDS
-					white_peace = AUS
 					white_peace = LUC
 					white_peace = MOD
 					white_peace = PPL
