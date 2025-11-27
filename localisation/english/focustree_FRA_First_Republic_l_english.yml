@@ -25,12 +25,14 @@ FRA_trial_of_louis_XVI:0 "Trial Of Louis XVI"
 FRA_trial_of_louis_XVI_desc:0 "High treason, conspiracy, trying to dissolve the National Assembly to bring back absolutism, having fled to Varennes and subsequently ordering the Champ de Mars Massacre and more among other charges. Louis will be tried by the National Convention, but it will be inevitable, the destiny of his life will be decided in the courts and the new republic will be free of kings and masters."
 
 FRA_establish_the_committee_of_public_safety:0 "The Committee Of Public Safety"
+FRA_establish_the_committee_of_public_safety_desc:0 "As the Provisional Government that we Jacobins have formed, we are going to create an institution to protect this New Republic from the enemies of the Revolution, both the Girondists and royalists as well as the Austrians and Bourbons. We will ensure a process to empower the committee to supervise the armed forces and give it administrative powers."
 
 FRA_arm_youself_citizens:0 "Arm Yourself Citizens"
 
 FRA_crucifix_of_marat:0 "Crucifix Of Marat"
 
 FRA_revolutionary_tribunal:0 "Revolutionary Tribunal"
+FRA_revolutionary_tribunal_desc:0 "We are going to restore the Revolutionary Court that the Paris insurrectionists created to restructure and consolidate it as an institution whose function is to protect the Revolution and judge those who attack it, both internal and external perpetrators, their heads will fall under the guillotine."
 
 FRA_careful_uk_navy:0 "infiltrate Great Britain Navy"
 
@@ -88,53 +90,11 @@ FRA_reign_of_terror_disarming_decree_desc:0 "The Disarmament Decree does not ref
 FRA_present_the_1792_constitution:0 "Present The Republic Constitution"
 FRA_present_the_1792_constitution_desc:0 "The National Convention is, without a doubt, the main institution of the Republic, which will declare the constitution to reaffirm the new great principles of liberty, equality and fraternity. Very similar to that of 1789, but more rights will be added regarding education, public assistance, work and etc."
 
-FRA_inegrate_the_constitution:0 "Integrate The Constitution"
-
 FRA_create_the_directory:0 "Create The Directory"
 FRA_create_the_directory_desc:0 "Finally, Robespierre is dead and his reign of terror with him. The Jacobins have dissolved and the few remaining Girondists will establish the Directory; a new government divided into the upper house and the lower house, the lower house will propose laws for the upper house to approve. The two chambers exercise enough power to prevent an executive from establishing another genocidal dictatorship."
 
-FRA_economic_issues:0 "Economic Issues"
-
-FRA_plunder_of_war:0 "Plunder Of War"
-
-FRA_mint_more_gold_and_silver_coins:0 "Mint More Gold And Silver Coins"
-
-FRA_destroy_the_printing_press:0 "Destroy The Printing Press"
-
-FRA_force_the_wealthy_to_pay:0 "Force The Wealthy To Pay"
-
-FRA_forced_loan_of_600_million:0 "Forced Loan Of 600 Million"
-
-FRA_declaration_of_bankruptcy:0 "Declaration Of Bankruptcy"
-
-FRA_assure_payment:0 "Assure Payment"
-
-FRA_taxes_on_property_owners:0 "Taxes On Property Owners"
-
-FRA_treaty_of_leoben:0 "Treaty Of Leoben"
-
 FRA_Napoleons_proposal:0 "Napoleons Proposal"
 FRA_Napoleons_proposal_desc:0 "Our famous general Napoleon has proposed the plan of a military expedition to invade Egypt and thus block the connection of the British Empire with its colonies in India, but it sounds like a risky and difficult campaign to succeed, but in this way we will manage to keep the general away from politics for several months, given his ambition and disturbing charisma."
-
-FRA_basically_a_french_stamp_act:0 "The French Stamp Act"
-
-FRA_prepare_the_1792_legislative_election:0 "Prepare The New Legislative Election"
-
-FRA_pichegru_head_of_500:0 "Pichegru Head Of 500"
-
-FRA_arrest_the_royalists:0 "Arrest The Royalists"
-
-FRA_deport_the_deputies:0 "Deport The Deputies"
-
-FRA_destroy_the_royalist_propaganda:0 "Destroy The Royalist Propaganda"
-
-FRA_declare_the_election_annu:0 "Declare The Election Annu"
-
-FRA_diplomatic_issues:0 "Diplomatic Issues"
-
-FRA_treaty_of_tolentino:0 "Treaty Of Tolentino"
-
-FRA_treaty_of_campo_formio:0 "Treaty Of Campo Formio"
 
 FRA_napoleons_proposal:0 "Napoleons Proposal"
 FRA_napoleons_proposal_desc:0 "Our famous general Napoleon has proposed the plan of a military expedition to invade Egypt and thus block the connection of the British Empire with its colonies in India, but it sounds like a risky and difficult campaign to succeed, but in this way we will manage to keep the general away from politics for several months, given his ambition and disturbing charisma."

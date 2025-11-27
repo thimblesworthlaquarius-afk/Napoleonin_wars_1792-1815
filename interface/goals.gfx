@@ -3328,5 +3328,21 @@ spriteTypes = {
 	    name = "GFX_FRA_south_republic"
 	    texturefile = "gfx/interface/goals/FRA/FRA_south_republic.dds"			
 	}
+	SpriteType = {
+	    name = "GFX_FRA_revolutionary_tribunal"
+	    texturefile = "gfx/interface/goals/FRA/FRA_revolutionary_tribunal.dds"			
+	}
+	SpriteType = {
+	    name = "GFX_FRA_reform_naval_ar"
+	    texturefile = "gfx/interface/goals/FRA/FRA_reform_naval_ar.dds"			
+	}
+	SpriteType = {
+	    name = "GFX_FRA_arm_yourself"
+	    texturefile = "gfx/interface/goals/FRA/FRA_arm_yourself.dds"			
+	}
+	SpriteType = {
+	    name = "GFX_FRA_enlist_dutchmen"
+	    texturefile = "gfx/interface/goals/FRA/FRA_enlist_dutchmen.dds"			
+	}
 
 }

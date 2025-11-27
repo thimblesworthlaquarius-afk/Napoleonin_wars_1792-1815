@@ -15,10 +15,9 @@ state = {
 			279 1
 		}
 		buildings = {
-			infrastructure = 3 
+			infrastructure = 2
 			arms_factory = 2
 			industrial_complex = 1
-			air_base = 2
 			9263 = {
 				naval_base = 1
 			}
@@ -26,10 +25,6 @@ state = {
 		add_core_of = POL
 		add_core_of = KSH
 		add_core_of = PRE
-		1938.3.12 = {
-			add_claim_by = GER
-		}
-		controller = PRE
 	}
 	provinces = {
 		243 279 334 389 3295 3324 6347 9263
