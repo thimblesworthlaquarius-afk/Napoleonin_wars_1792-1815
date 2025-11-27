@@ -27,5 +27,5 @@ add_ideas = {
 	mildintervention
 }
 
-recruit_character = TUR_Selim_III
+recruit_character = ALG_Selim_III
 

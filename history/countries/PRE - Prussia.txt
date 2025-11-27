@@ -40,4 +40,7 @@ add_equipment_production = {
 }
 
 recruit_character = PRE_Frederick_William_II
+recruit_character = PRE_Charles_William_Ferdinand
+recruit_character = PRE_Gebhard_Leberecht
+recruit_character = PRE_Ernest_I
 
