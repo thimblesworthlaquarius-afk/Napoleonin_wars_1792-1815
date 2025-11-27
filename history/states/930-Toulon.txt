@@ -20,7 +20,6 @@ state={
 			}
 			dockyard  = 1
         }
-		is_port = yes
         owner = FRA
         add_core_of = FRA
 		victory_points = {
