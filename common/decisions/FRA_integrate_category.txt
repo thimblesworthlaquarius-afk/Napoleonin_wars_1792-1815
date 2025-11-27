@@ -44,6 +44,37 @@ FRA_integrate_category = {
 
         ai_will_do = { factor = 1 }
     }
+	FRA_integrate_genoa_state = {
+        icon = GFX_decision_generic_occupation
+
+        allowed = { original_tag = FRA }
+
+        cost = 50
+        fire_only_once = yes
+        cancel_if_invalid = yes
+        days_remove = 2
+
+        available = {
+            840 = {
+                is_controlled_by = FRA
+                compliance > 65
+                resistance < 30
+                NOT = { is_core_of = FRA }
+            }
+			has_country_flag
+        }
+
+        complete_effect = {
+            FRA = {
+				add_state_core = 840
+            }
+
+            add_stability = 0.02
+            add_political_power = -25
+        }
+
+        ai_will_do = { factor = 1 }
+    }
 	
 	FRA_offensive_state = {
         icon = GFX_decision_generic_occupation
