@@ -1,0 +1,261 @@
+division_template = {
+    name = "Janissary Division"
+    priority = 2
+
+    regiments = {
+        infantry = { x = 0 y = 0 }
+        infantry = { x = 1 y = 0 }
+        infantry = { x = 2 y = 0 }
+
+        infantry = { x = 0 y = 1 }
+        infantry = { x = 1 y = 1 }
+        infantry = { x = 2 y = 1 }
+
+        infantry = { x = 0 y = 2 }
+        infantry = { x = 1 y = 2 }
+        infantry = { x = 2 y = 2 }
+    }
+
+    support = {
+        artillery = { x = 0 y = 0 }
+    }
+}
+
+division_template = {
+    name = "Provincial Infantry Division"
+    priority = 2
+
+    regiments = {
+        infantry = { x = 0 y = 0 }
+        infantry = { x = 1 y = 0 }
+        infantry = { x = 2 y = 0 }
+
+        infantry = { x = 0 y = 1 }
+        infantry = { x = 1 y = 1 }
+        infantry = { x = 2 y = 1 }
+
+        infantry = { x = 0 y = 2 }
+        infantry = { x = 1 y = 2 }
+    }
+
+    support = {
+        artillery = { x = 0 y = 0 }
+    }
+}
+
+division_template = {
+    name = "Irregular Infantry Division"
+    priority = 1
+
+    regiments = {
+        infantry = { x = 0 y = 0 }
+        infantry = { x = 1 y = 0 }
+        infantry = { x = 2 y = 0 }
+
+        infantry = { x = 0 y = 1 }
+        infantry = { x = 1 y = 1 }
+        infantry = { x = 2 y = 1 }
+    }
+}
+
+division_template = {
+    name = "Sipahi Cavalry Division"
+    priority = 2
+
+    regiments = {
+        cavalry = { x = 0 y = 0 }
+        cavalry = { x = 1 y = 0 }
+
+        cavalry = { x = 0 y = 1 }
+        cavalry = { x = 1 y = 1 }
+    }
+}
+
+division_template = {
+    name = "Garrison Division"
+    priority = 0
+
+    regiments = {
+        infantry = { x = 0 y = 0 }
+        infantry = { x = 1 y = 0 }
+
+        infantry = { x = 0 y = 1 }
+        infantry = { x = 1 y = 1 }
+    }
+}
+units = {
+
+    #########################
+    # BALKANS / DANUBE FRONT
+    #########################
+
+    division = {
+        name = "1st Rumelian Janissaries"
+        location = 11586
+        division_template = "Janissary Division"
+        start_experience_factor = 0.3
+        start_equipment_factor = 0.7
+    }
+    division = {
+        name = "2nd Rumelian Janissaries"
+        location = 11586
+        division_template = "Janissary Division"
+        start_experience_factor = 0.25
+        start_equipment_factor = 0.65
+    }
+    division = {
+        name = "3rd Rumelian Janissaries"
+        location = 11899
+        division_template = "Janissary Division"
+        start_experience_factor = 0.25
+        start_equipment_factor = 0.6
+    }
+    division = {
+        name = "4th Rumelian Janissaries"
+        location = 6983
+        division_template = "Janissary Division"
+        start_experience_factor = 0.2
+        start_equipment_factor = 0.6
+    }
+    division = {
+        name = "5th Rumelian Janissaries"
+        location = 9894
+        division_template = "Janissary Division"
+        start_experience_factor = 0.2
+        start_equipment_factor = 0.55
+    }
+    division = {
+        name = "6th Rumelian Janissaries"
+        location = 9914
+        division_template = "Janissary Division"
+        start_experience_factor = 0.2
+        start_equipment_factor = 0.55
+    }
+
+    # 2 Sipahi cavalry
+    division = {
+        name = "1st Rumelian Sipahi"
+        location = 9914
+        division_template = "Sipahi Cavalry Division"
+        start_experience_factor = 0.3
+        start_equipment_factor = 0.7
+    }
+    division = {
+        name = "2nd Rumelian Sipahi"
+        location = 949
+        division_template = "Sipahi Cavalry Division"
+        start_experience_factor = 0.25
+        start_equipment_factor = 0.65
+    }
+
+
+    #########################
+    # ANATOLIA & CAUCASUS
+    #########################
+
+    # 4 Provincial infantry
+    division = {
+        name = "1st Anatolian Infantry"
+        location = 9833
+        division_template = "Provincial Infantry Division"
+        start_experience_factor = 0.2
+        start_equipment_factor = 0.6
+    }
+    division = {
+        name = "2nd Anatolian Infantry"
+        location = 9833
+        division_template = "Provincial Infantry Division"
+        start_experience_factor = 0.2
+        start_equipment_factor = 0.55
+    }
+    division = {
+        name = "3rd Anatolian Infantry"
+        location = 11747
+        division_template = "Provincial Infantry Division"
+        start_experience_factor = 0.15
+        start_equipment_factor = 0.55
+    }
+    division = {
+        name = "4th Anatolian Infantry"
+        location = 6938
+        division_template = "Provincial Infantry Division"
+        start_experience_factor = 0.15
+        start_equipment_factor = 0.5
+    }
+    division = {
+        name = "1st Anatolian Sipahi"
+        location = 4112
+        division_template = "Sipahi Cavalry Division"
+        start_experience_factor = 0.25
+        start_equipment_factor = 0.6
+    }
+
+
+    #########################
+    # LEVANT / EGYPT / IRAQ
+    #########################
+
+    division = {
+        name = "1st Syrian Irregulars"
+        location = 4111
+        division_template = "Irregular Infantry Division"
+        start_experience_factor = 0.15
+        start_equipment_factor = 0.5
+    }
+    division = {
+        name = "2nd Syrian Irregulars"
+        location = 1056
+        division_template = "Irregular Infantry Division"
+        start_experience_factor = 0.1
+        start_equipment_factor = 0.45
+    }
+    division = {
+        name = "1st Egyptian Irregulars"
+        location = 7011
+        division_template = "Irregular Infantry Division"
+        start_experience_factor = 0.15
+        start_equipment_factor = 0.5
+    }
+    division = {
+        name = "1st Mesopotamian Irregulars"
+        location = 2097
+        division_template = "Irregular Infantry Division"
+        start_experience_factor = 0.1
+        start_equipment_factor = 0.45
+    }
+
+
+    #########################
+    # CAPITAL / STRAITS / RESERVE
+    #########################
+
+    # 3 Guard / Janissary near capital
+    division = {
+        name = "Imperial Guard Janissaries"
+        location = 947
+        division_template = "Janissary Division"
+        start_experience_factor = 0.4
+        start_equipment_factor = 0.75
+    }
+    division = {
+        name = "Istanbul Janissary Garrison"
+        location = 9833
+        division_template = "Janissary Division"
+        start_experience_factor = 0.35
+        start_equipment_factor = 0.7
+    }
+    division = {
+        name = "Smyrna Garrison"
+        location = 10472
+        division_template = "Garrison Division"
+        start_experience_factor = 0.15
+        start_equipment_factor = 0.55
+    }
+    division = {
+        name = "Salonika Garrison"
+        location = 3653
+        division_template = "Garrison Division"
+        start_experience_factor = 0.15
+        start_equipment_factor = 0.5
+    }
+}
