@@ -6,9 +6,11 @@ state={
 	history={
 		owner = GEN
 		add_core_of = GEN
-		6788 = {
-		    naval_base = 1
-		}
+		buildings = {
+		    6788 = {
+		        naval_base = 2
+		    }
+		}	
 	}
 
 	provinces={

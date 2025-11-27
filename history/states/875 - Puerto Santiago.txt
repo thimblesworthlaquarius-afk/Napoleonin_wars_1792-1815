@@ -4,8 +4,10 @@ state={
 	history = {
 		owner = MEX
 		add_core_of = MEX
-		13260 = {
-			coastal_bunker = 2
+		buildings = {
+		    13260 = {
+			    coastal_bunker = 2
+		    }
 		}
 	}
 	provinces={

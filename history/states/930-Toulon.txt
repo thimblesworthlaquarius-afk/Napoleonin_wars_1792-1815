@@ -7,7 +7,6 @@ state={
     manpower=28000
     buildings_max_level_factor=1
     local_supplies=4.000
-	supply_node = yes
 	state_category=city
 
     history={
@@ -15,6 +14,7 @@ state={
 		    infrastructure = 8
             coastal_bunker = 4
 			arms_factory = 2
+			supply_node = 1
 			911 = {
 				naval_base = 1
 			}
