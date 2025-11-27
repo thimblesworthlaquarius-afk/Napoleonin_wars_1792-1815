@@ -14,7 +14,7 @@ focus_tree = {
 		icon = GFX_FRA_maritinefrance
 		x = 5
 		y = 0
-		cost = 10
+		cost = 5
 		search_filters = { FOCUS_FILTER_POLITICAL }		
 		relative_position_id = FRA_reorginise_the_french_navy	
 		completion_reward = {	
@@ -30,7 +30,7 @@ focus_tree = {
 		icon = GFX_FRA_rebuilttoulon
 		x = 5
 		y = 2
-		cost = 10
+		cost = 5
 		search_filters = { FOCUS_FILTER_POLITICAL }
 		prerequisite = { focus = FRA_orignise_maritime_customs }	
 		prerequisite = { focus = FRA_disband_the_naval_infantry }	
@@ -67,15 +67,27 @@ focus_tree = {
 		icon = GFX_focus_fra_le_deluge
 		x = 8
 		y = 3
-		cost = 10
+		cost = 5
 		search_filters = { FOCUS_FILTER_POLITICAL }
 		prerequisite = { focus = FRA_rebuild_toulon }	
 		relative_position_id = FRA_reorginise_the_french_navy	
-		completion_reward = {	
-			set_cosmetic_tag = FRP_FRA
-
-			country_event = { id = france.2 }
-			news_event = { id = news.2 }
+		completion_reward = {
+            21 = {
+			    limit = {
+				    is_core_of = ROOT
+			    }
+			    add_extra_state_shared_building_slots = 1
+			    add_building_construction = {
+				    type = 	coastal_bunker
+				    level = 2
+				    instant_build = yes
+			    }
+			    add_building_construction = {
+				    type = 	naval_base
+				    level = 1
+				    instant_build = yes
+			    }
+		    }			
 		}
 	}
 
@@ -84,7 +96,7 @@ focus_tree = {
 		icon = GFX_FRA_rochford
 		x = 5
 		y = 3
-		cost = 10
+		cost = 5
 		search_filters = { FOCUS_FILTER_POLITICAL }
 		prerequisite = { focus = FRA_rebuild_toulon }	
 		relative_position_id = FRA_reorginise_the_french_navy	
@@ -98,15 +110,32 @@ focus_tree = {
 		icon = GFX_FRA_Improvationofbrest
 		x = 5
 		y = 4
-		cost = 10
+		cost = 5
 		search_filters = { FOCUS_FILTER_POLITICAL }
 		prerequisite = { focus = FRA_legacy_of_rochfort }	
 		relative_position_id = FRA_reorginise_the_french_navy	
-		completion_reward = {	
-			set_cosmetic_tag = FRP_FRA
-
-			country_event = { id = france.2 }
-			news_event = { id = news.2 }
+		completion_reward = {
+		    14 = {
+			    limit = {
+				    is_core_of = ROOT
+			    }
+			    add_extra_state_shared_building_slots = 2
+				build_railway = {
+					path = { 3552 542 6536 9510 11465 } 
+				    level = 2
+			    }
+			    add_building_construction = {
+				    type = dockyard
+				    level = 1
+				    instant_build = yes
+			    }
+				add_building_construction = {
+				    type = supply_node
+				    level = 1
+				    instant_build = yes
+					province = 3552
+			    }
+		    }
 		}
 	}
 
@@ -115,7 +144,7 @@ focus_tree = {
 		icon = GFX_FRA_reformthecostalguard
 		x = 8
 		y = 1
-		cost = 10
+		cost = 5
 		search_filters = { FOCUS_FILTER_POLITICAL }	
 		prerequisite = { focus = FRA_orignise_maritime_customs }
 		relative_position_id = FRA_reorginise_the_french_navy		
@@ -156,7 +185,7 @@ focus_tree = {
 		icon = GFX_FRA_reinforcecostalbases
 		x = 10
 		y = 4
-		cost = 10
+		cost = 5
 		search_filters = { FOCUS_FILTER_POLITICAL }	
 		prerequisite = { focus = FRA_reform_the_costal_guard }
 		prerequisite = { focus = FRA_marseille_defensive }
@@ -175,7 +204,7 @@ focus_tree = {
 		icon = GFX_french_navy
 		x = -12
 		y = 0
-		cost = 10
+		cost = 6
 		search_filters = { FOCUS_FILTER_POLITICAL }		
 		completion_reward = {	
 			swap_ideas = { remove_idea = france_navy add_idea = france_navy_2 }
@@ -206,7 +235,7 @@ focus_tree = {
 		icon = GFX_focus_fra_le_deluge
 		x = 0
 		y = 2
-		cost = 10
+		cost = 6
 		search_filters = { FOCUS_FILTER_POLITICAL }	
 		prerequisite = { focus = FRA_disband_the_naval_infantry }	
 		relative_position_id = FRA_reorginise_the_french_navy
@@ -222,7 +251,7 @@ focus_tree = {
 		icon = GFX_focus_fra_le_deluge
 		x = -2
 		y = 3
-		cost = 10
+		cost = 3.5
 		search_filters = { FOCUS_FILTER_POLITICAL }	
 		prerequisite = { focus = FRA_reform_the_naval_artillery }	
 		relative_position_id = FRA_reorginise_the_french_navy
@@ -681,7 +710,7 @@ focus_tree = {
 		icon = "GFX_goal_stability_to_the_republic"
 		x = -2
 		y = 17
-		cost = 10
+		cost = 3.5
 		prerequisite = { focus = FRA_final_victims  } 
 		search_filters = { FOCUS_FILTER_POLITICAL }		
 		relative_position_id = FRA_the_french_republic
@@ -696,7 +725,7 @@ focus_tree = {
 		icon = GFX_focus_fra_le_deluge
 		x = -2
 		y = 18
-		cost = 10
+		cost = 3.5
 		prerequisite = { focus = FRA_stability_to_the_republic  } 
 		search_filters = { FOCUS_FILTER_POLITICAL }		
 		relative_position_id = FRA_the_french_republic
@@ -710,7 +739,7 @@ focus_tree = {
 		icon = GFX_focus_fra_le_deluge
 		x = -2
 		y = 19
-		cost = 10
+		cost = 3.5
 		prerequisite = { focus = FRA_arrest_gracchus_babeuf  } 
 		search_filters = { FOCUS_FILTER_POLITICAL }		
 		relative_position_id = FRA_the_french_republic
@@ -724,7 +753,7 @@ focus_tree = {
 		icon = GFX_focus_fra_le_deluge
 		x = -2
 		y = 20
-		cost = 10
+		cost = 3.5
 		prerequisite = { focus = FRA_burn_the_tribun_du_peuple  } 
 		search_filters = { FOCUS_FILTER_POLITICAL }		
 		relative_position_id = FRA_the_french_republic
@@ -738,7 +767,7 @@ focus_tree = {
 		icon = GFX_focus_fra_le_deluge
 		x = 4
 		y = 18
-		cost = 10
+		cost = 3.5
 		prerequisite = { focus = FRA_stability_to_the_republic  } 
 		search_filters = { FOCUS_FILTER_POLITICAL }		
 		relative_position_id = FRA_the_french_republic
@@ -752,7 +781,7 @@ focus_tree = {
 		icon = GFX_focus_fra_le_deluge
 		x = 4
 		y = 19
-		cost = 10
+		cost = 3.5
 		prerequisite = { focus = FRA_reaction_to_the_insurrection_of_april_1st  } 
 		search_filters = { FOCUS_FILTER_POLITICAL }		
 		relative_position_id = FRA_the_french_republic
@@ -766,7 +795,7 @@ focus_tree = {
 		icon = GFX_focus_fra_le_deluge
 		x = 4
 		y = 20
-		cost = 10
+		cost = 3.5
 		prerequisite = { focus = FRA_reduce_revolutionary_tribunal_power  } 
 		search_filters = { FOCUS_FILTER_POLITICAL }		
 		relative_position_id = FRA_the_french_republic
@@ -780,7 +809,7 @@ focus_tree = {
 		icon = GFX_focus_fra_le_deluge
 		x = 1
 		y = 18
-		cost = 10
+		cost = 3.5
 		prerequisite = { focus = FRA_stability_to_the_republic  } 
 		search_filters = { FOCUS_FILTER_POLITICAL }		
 		relative_position_id = FRA_the_french_republic
@@ -794,7 +823,7 @@ focus_tree = {
 		icon = GFX_focus_fra_le_deluge
 		x = 1
 		y = 19
-		cost = 10
+		cost = 3.5
 		prerequisite = { focus = FRA_arrest_cambon_sarthe_and_thuriot  } 
 		search_filters = { FOCUS_FILTER_POLITICAL }		
 		relative_position_id = FRA_the_french_republic
@@ -808,7 +837,7 @@ focus_tree = {
 		icon = GFX_FRA_jacobin_court
 		x = 1
 		y = 20
-		cost = 10
+		cost = 3.5
 		prerequisite = { focus = FRA_deport_barere_varenne_vadier_and_herbois  } 
 		search_filters = { FOCUS_FILTER_POLITICAL }		
 		relative_position_id = FRA_the_french_republic
@@ -822,7 +851,7 @@ focus_tree = {
 		icon = GFX_focus_fra_le_deluge
 		x = -5
 		y = 18
-		cost = 10
+		cost = 3.5
 		prerequisite = { focus = FRA_stability_to_the_republic  } 
 		search_filters = { FOCUS_FILTER_POLITICAL }		
 		relative_position_id = FRA_the_french_republic
@@ -836,7 +865,7 @@ focus_tree = {
 		icon = GFX_focus_fra_le_deluge
 		x = -5
 		y = 19
-		cost = 10
+		cost = 3.5
 		prerequisite = { focus = FRA_arrest_jean_baptiste_carrier  } 
 		search_filters = { FOCUS_FILTER_POLITICAL }		
 		relative_position_id = FRA_the_french_republic
@@ -850,7 +879,7 @@ focus_tree = {
 		icon = GFX_focus_fra_le_deluge
 		x = -5
 		y = 20
-		cost = 10
+		cost = 3.5
 		prerequisite = { focus = FRA_end_the_trials_of_94_nantais  } 
 		search_filters = { FOCUS_FILTER_POLITICAL }		
 		relative_position_id = FRA_the_french_republic
@@ -864,7 +893,7 @@ focus_tree = {
 		icon = GFX_goals_republic_con
 		x = -2
 		y = 21
-		cost = 10
+		cost = 3.5
 		prerequisite = { focus = FRA_orders_from_carnot focus = FRA_execute_the_jacobin_revolutionary_tribunal focus = FRA_reign_of_terror_disarming_decree focus = FRA_execture_baptiste_carrier } 
 		search_filters = { FOCUS_FILTER_POLITICAL }		
 		relative_position_id = FRA_the_french_republic
