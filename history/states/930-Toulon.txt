@@ -8,6 +8,7 @@ state={
     buildings_max_level_factor=1
     local_supplies=4.000
 	supply_node = yes
+	state_category=city
 
     history={
 	    buildings = {

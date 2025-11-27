@@ -516,7 +516,7 @@ focus_tree = {
 		completion_reward = {	
 			swap_ideas = { remove_idea = FRA_pre_10_august_army_1 add_idea = FRA_pre_10_august_army_2 }
 
-			add_war_support = 0.20
+			add_war_support = 0.1
 		}
 	}
 
@@ -547,7 +547,7 @@ focus_tree = {
 		relative_position_id = FRA_the_french_republic
 		completion_reward = {	
             add_stability = -0.15
-			add_manpower = -1000
+			add_war_support = -0.10
 			
 		}
 	}
@@ -706,7 +706,7 @@ focus_tree = {
 
 
 	focus = {
-		id = FRA_stability_to_the_republic
+		id = FRA_draft_new_constitution
 		icon = "GFX_goal_stability_to_the_republic"
 		x = -2
 		y = 17
@@ -719,172 +719,18 @@ focus_tree = {
             add_political_power = 50
 		}
 	}
-
 	focus = {
-		id = FRA_arrest_gracchus_babeuf
-		icon = GFX_focus_fra_le_deluge
+		id = FRA_fate_revolutionary_tribunal
+		icon = "GFX_goal_stability_to_the_republic"
 		x = -2
 		y = 18
 		cost = 3.5
-		prerequisite = { focus = FRA_stability_to_the_republic  } 
+		prerequisite = { focus = FRA_draft_new_constitution  } 
 		search_filters = { FOCUS_FILTER_POLITICAL }		
 		relative_position_id = FRA_the_french_republic
 		completion_reward = {	
-		
-		}
-	}
-
-	focus = {
-		id = FRA_burn_the_tribun_du_peuple
-		icon = GFX_focus_fra_le_deluge
-		x = -2
-		y = 19
-		cost = 3.5
-		prerequisite = { focus = FRA_arrest_gracchus_babeuf  } 
-		search_filters = { FOCUS_FILTER_POLITICAL }		
-		relative_position_id = FRA_the_french_republic
-		completion_reward = {	
-            add_stability = 0.05
-		}
-	}
-
-	focus = {
-		id = FRA_orders_from_carnot
-		icon = GFX_focus_fra_le_deluge
-		x = -2
-		y = 20
-		cost = 3.5
-		prerequisite = { focus = FRA_burn_the_tribun_du_peuple  } 
-		search_filters = { FOCUS_FILTER_POLITICAL }		
-		relative_position_id = FRA_the_french_republic
-		completion_reward = {	
-			add_war_support = 0.10
-		}
-	}
-
-	focus = {
-		id = FRA_reaction_to_the_insurrection_of_april_1st
-		icon = GFX_focus_fra_le_deluge
-		x = 4
-		y = 18
-		cost = 3.5
-		prerequisite = { focus = FRA_stability_to_the_republic  } 
-		search_filters = { FOCUS_FILTER_POLITICAL }		
-		relative_position_id = FRA_the_french_republic
-		completion_reward = {	
-            add_stability = -0.05
-		}
-	}
-
-	focus = {
-		id = FRA_reduce_revolutionary_tribunal_power
-		icon = GFX_focus_fra_le_deluge
-		x = 4
-		y = 19
-		cost = 3.5
-		prerequisite = { focus = FRA_reaction_to_the_insurrection_of_april_1st  } 
-		search_filters = { FOCUS_FILTER_POLITICAL }		
-		relative_position_id = FRA_the_french_republic
-		completion_reward = {	
-            add_stability = 0.10
-		}
-	}
-
-	focus = {
-		id = FRA_reign_of_terror_disarming_decree
-		icon = GFX_focus_fra_le_deluge
-		x = 4
-		y = 20
-		cost = 3.5
-		prerequisite = { focus = FRA_reduce_revolutionary_tribunal_power  } 
-		search_filters = { FOCUS_FILTER_POLITICAL }		
-		relative_position_id = FRA_the_french_republic
-		completion_reward = {	
-            add_stability = 0.10
-		}
-	}
-
-	focus = {
-		id = FRA_arrest_cambon_sarthe_and_thuriot
-		icon = GFX_focus_fra_le_deluge
-		x = 1
-		y = 18
-		cost = 3.5
-		prerequisite = { focus = FRA_stability_to_the_republic  } 
-		search_filters = { FOCUS_FILTER_POLITICAL }		
-		relative_position_id = FRA_the_french_republic
-		completion_reward = {	
-
-		}
-	}
-
-	focus = {
-		id = FRA_deport_barere_varenne_vadier_and_herbois
-		icon = GFX_focus_fra_le_deluge
-		x = 1
-		y = 19
-		cost = 3.5
-		prerequisite = { focus = FRA_arrest_cambon_sarthe_and_thuriot  } 
-		search_filters = { FOCUS_FILTER_POLITICAL }		
-		relative_position_id = FRA_the_french_republic
-		completion_reward = {	
-
-		}
-	}
-
-	focus = {
-		id = FRA_execute_the_jacobin_revolutionary_tribunal
-		icon = GFX_FRA_jacobin_court
-		x = 1
-		y = 20
-		cost = 3.5
-		prerequisite = { focus = FRA_deport_barere_varenne_vadier_and_herbois  } 
-		search_filters = { FOCUS_FILTER_POLITICAL }		
-		relative_position_id = FRA_the_french_republic
-		completion_reward = {	
-            add_stability = 0.10
-		}
-	}
-
-	focus = {
-		id = FRA_arrest_jean_baptiste_carrier
-		icon = GFX_focus_fra_le_deluge
-		x = -5
-		y = 18
-		cost = 3.5
-		prerequisite = { focus = FRA_stability_to_the_republic  } 
-		search_filters = { FOCUS_FILTER_POLITICAL }		
-		relative_position_id = FRA_the_french_republic
-		completion_reward = {	
-            add_stability = 0.05
-		}
-	}
-
-	focus = {
-		id = FRA_end_the_trials_of_94_nantais
-		icon = GFX_focus_fra_le_deluge
-		x = -5
-		y = 19
-		cost = 3.5
-		prerequisite = { focus = FRA_arrest_jean_baptiste_carrier  } 
-		search_filters = { FOCUS_FILTER_POLITICAL }		
-		relative_position_id = FRA_the_french_republic
-		completion_reward = {	
-            add_stability = 0.05
-		}
-	}
-
-	focus = {
-		id = FRA_execture_baptiste_carrier
-		icon = GFX_focus_fra_le_deluge
-		x = -5
-		y = 20
-		cost = 3.5
-		prerequisite = { focus = FRA_end_the_trials_of_94_nantais  } 
-		search_filters = { FOCUS_FILTER_POLITICAL }		
-		relative_position_id = FRA_the_french_republic
-		completion_reward = {	
-            add_stability = 0.05
+            add_stability = 0.50
+            add_political_power = 50
 		}
 	}
 

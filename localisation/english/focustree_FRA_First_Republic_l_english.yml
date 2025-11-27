@@ -59,34 +59,7 @@ FRA_law_of_22_prairal_desc:0 "The judicial process of the revolutionized court w
 
 FRA_final_victims:0 "Final Victims"
 
-FRA_stability_to_the_republic:0 "Stability To The Republic"
-
-FRA_arrest_jean_baptiste_carrier:0 "Arrest Jean Baptiste Carrier"
-
-FRA_arrest_gracchus_babeuf:0 "Arrest Gracchus Babeuf"
-
-FRA_arrest_cambon_sarthe_and_thuriot:0 "Arrest Cambon Sarther And Thuriot"
-
-FRA_reaction_to_the_insurrection_of_april_1st:0 "Reaction To The Insurrection Of April 1st"
-
-FRA_end_the_trials_of_94_nantais:0 "End The Trials Of 94 Nantais"
-
-FRA_burn_the_tribun_du_peuple:0 "Burn The Tribun Du Peuple"
-
-FRA_deport_barere_varenne_vadier_and_herbois:0 "Deport Barere Varenne Vadier And Herbois"
-
-FRA_reduce_revolutionary_tribunal_power:0 "Reduce Revolutionary Tribunal Power"
-
-FRA_execture_baptiste_carrier:0 "Execute Baptiste Carrier"
-
-FRA_orders_from_carnot:0 "Orders From Carnot"
-
-FRA_execute_the_jacobin_revolutionary_tribunal:0 "Execute The Jacobin Revolutionary Tribunal"
-FRA_execute_the_jacobin_revolutionary_tribunal_desc:0 "The revolutionary court did too much damage to the republic. Thousands of innocent people, workers, nobles, officers, died under the guillotine for the accusation of treason, without the possibility of defending themselves. We will dissolve the revolutionary court and its laws to eliminate the murderous legacy of Robespierre."
-
-FRA_reign_of_terror_disarming_decree:0 "Reign Of Terror Disarming Decree"
-FRA_reign_of_terror_disarming_decree_desc:0 "The Disarmament Decree does not refer to a single edict of physical disarmament, but to a set of laws and repressive actions that will disarm citizens of their rights and freedoms, This law authorizes authorities to arrest based on suspicion and not evidence."
-
+FRA_draft_new_constitution:0 "Draft A new constitution"
 FRA_present_the_1792_constitution:0 "Present The Republic Constitution"
 FRA_present_the_1792_constitution_desc:0 "The National Convention is, without a doubt, the main institution of the Republic, which will declare the constitution to reaffirm the new great principles of liberty, equality and fraternity. Very similar to that of 1789, but more rights will be added regarding education, public assistance, work and etc."
 

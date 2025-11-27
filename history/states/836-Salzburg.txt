@@ -4,19 +4,12 @@ state={
 
 	history={
 		owner = GER
-		add_core_of = GER
+		add_core_of = AUS
 		victory_points = {
-			778 1 
-		}
-		victory_points = {
-			 5 
+			688 5 
 		}
 		buildings = {
 			infrastructure = 2
-			3675 = {
-				naval_base = 2
-
-			}
 
 		}
 
