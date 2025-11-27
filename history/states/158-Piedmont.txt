@@ -2,7 +2,7 @@
 state={
 	id=158
 	name="STATE_158"
-	manpower = 4765476
+	manpower = 700000
 	
 	state_category = metropolis
 	resources={
@@ -31,13 +31,6 @@ state={
 			}
 		}
 		add_core_of = PDS
-		1939.1.1 = {
-			buildings = {
-				arms_factory = 10
-				industrial_complex = 2
-				dockyard = 3
-			}
-		}
 	}
 
 	provinces={
