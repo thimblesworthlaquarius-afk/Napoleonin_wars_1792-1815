@@ -1,0 +1,90 @@
+division_template = {
+    name = "Papal Line Infantry"
+    priority = 2
+
+    regiments = {
+        infantry = { x = 0 y = 0 }
+        infantry = { x = 1 y = 0 }
+
+        infantry = { x = 0 y = 1 }
+        infantry = { x = 1 y = 1 }
+
+        infantry = { x = 0 y = 2 }
+        infantry = { x = 1 y = 2 }
+    }
+}
+
+division_template = {
+    name = "Papal Militia"
+    priority = 1
+
+    regiments = {
+        infantry = { x = 0 y = 0 }
+        infantry = { x = 1 y = 0 }
+
+        infantry = { x = 0 y = 1 }
+        infantry = { x = 1 y = 1 }
+    }
+}
+
+division_template = {
+    name = "Swiss Guard"
+    priority = 2
+
+    regiments = {
+        infantry = { x = 0 y = 0 }
+        infantry = { x = 1 y = 0 }
+        infantry = { x = 0 y = 1 }
+    }
+}
+
+###########################
+###      UNITS (3)     ###
+###########################
+
+units = {
+
+    #########################
+    # ROME / CAPITAL
+    #########################
+
+    division = {
+        name = "Papal Line Regiment"
+        location = 925
+        division_template = "Papal Line Infantry"
+        start_experience_factor = 0.2
+        start_equipment_factor = 0.55
+    }
+	division = {
+        name = "Papal Line Regiment"
+        location = 6606
+        division_template = "Papal Line Infantry"
+        start_experience_factor = 0.2
+        start_equipment_factor = 0.55
+    }
+
+    division = {
+        name = "Swiss Guard"
+        location = 9904
+        division_template = "Swiss Guard"
+        start_experience_factor = 0.45
+        start_equipment_factor = 0.65
+    }
+	division = {
+        name = "Swiss Guard"
+        location = 11846
+        division_template = "Swiss Guard"
+        start_experience_factor = 0.45
+        start_equipment_factor = 0.65
+    }
+
+    division = {
+        name = "Roman Militia"
+        location = 9904
+        division_template = "Papal Militia"
+        start_experience_factor = 0.15
+        start_equipment_factor = 0.5
+    }
+
+    # รวมทั้งหมด = 3 divisions เท่านั้น
+}
