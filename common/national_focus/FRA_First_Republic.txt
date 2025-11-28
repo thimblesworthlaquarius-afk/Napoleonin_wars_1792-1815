@@ -570,7 +570,22 @@ focus_tree = {
 	focus = {
 		id = FRA_law_of_suspects
 		icon = GFX_focus_fra_le_deluge
-		x = 0
+		x = 1
+		y = 10
+		cost = 3.6
+		prerequisite = { focus = FRA_crimes_against_liberty  } 
+		prerequisite = { focus = FRA_revolutionary_tribunal  }
+		search_filters = { FOCUS_FILTER_POLITICAL }		
+		relative_position_id = FRA_the_french_republic
+		completion_reward = {	
+			add_stability = -0.10
+			
+		}
+	}
+	focus = {
+		id = FRA_purge_girodin
+		icon = GFX_focus_fra_le_deluge
+		x = -1
 		y = 10
 		cost = 3.6
 		prerequisite = { focus = FRA_crimes_against_liberty  } 
@@ -590,6 +605,7 @@ focus_tree = {
 		y = 11
 		cost = 3.6
 		prerequisite = { focus = FRA_law_of_suspects  } 
+		prerequisite = { focus = FRA_purge_girodin  } 
 		search_filters = { FOCUS_FILTER_POLITICAL }		
 		relative_position_id = FRA_the_french_republic
 		completion_reward = {	
