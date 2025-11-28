@@ -44,6 +44,7 @@ FRA_establish_the_reign_of_terror:0 "Establish The Reign Of Terror"
 FRA_establish_the_reign_of_terror_desc:0 "We achieved it, the Jacobins now have the powers of the Convention, We will suspend the constitution and replace the Convention, then found the National Salvation Committee to clean up the revolution and eliminate the traitors, every suspect of treason to the State will die under the steel of the guillotine and the weight of our law."
 
 FRA_the_last_of_the_royals:0 "The Last Of The Royals"
+FRA_the_last_of_the_royals_desc:0 "The monarchical traces in the laws and institutions have disappeared forever from our State. But there are still royalist restorationists who wish to return to the absolutist reign of the incompetent Bourbons and place one of their suitors on the throne. It will not happen again, because all those dissidents will recognize that our new system is better and will turn the page, those who will not face another fate."
 
 FRA_allow_dantons_reforms:0 "Allow Dantons Reforms"
 FRA_allow_dantons_reforms_desc:0 "Danton is one of the main drivers of the fall of the absolutist monarchy, to balance power between him and Robespierre, it will be necessary to agree to his moderate reforms so that the Jacobin regime is pacified and not known as a murderous dictatorship, and also so as The Moderate Jacobins and Girondins will be reconciled and a true abuse of power and reign of terror over France will be avoided."
@@ -167,6 +168,7 @@ FRA_helvetic_republics:0 "Helvetic Republics"
 FRA_helvetic_republics_desc:0 "Among the snowy mountains and fertile lands of the Alps, a feudal and cantonal regime has been captured by our forces, a centralized state republic will be established to place a strategic point in our struggle for liberation, although progressive ideas are not very welcome in the land where the Rhine is born."
 
 FRA_extract_swiss_riches:0 "Extract Swiss Riches"
+FRA_extract_swiss_riches_desc:0 "The territories of Switzerland hold valuable resources, stable banks, and long-untouched wealth. By asserting stronger influence over the region, France can secure supplies, financial assets, and strategic materials needed for the war effort. Though controversial, this extraction strengthens the Republic’s position and fuels our expanding military ambitions."
 
 FRA_tax_the_swiss_cantons:0 "Tax The Swiss Cantons"
 
@@ -192,7 +194,7 @@ FRA_lombard_administration:0 "Lombard Administration"
 
 
 FRA_roman_republic:0 "Roman Republic"
-FRA_roman_republic_desc:0 "The great city of Rome, the place where Europe was born, the city that has eclipsed even the passage of time. Emperors used to reign, wise men and generals, authoritarians and reformers, those like Augustus have gone down in history forever under the empire that used to be. Our soldiers admire their greatness while they occupy the city."
+FRA_roman_republic_desc:0 "The Pope who proclaims himself to be the vicar of God has weakened the glory that the city used to manifest for centuries, thanks to us they will no longer reign over the Vatican and we will free the Roman population. A republic will be established again as it used to be in ancient times, the consuls will govern again while this new revolutionary republic is directed as a satellite state."
 
 FRA_exile_pope_pius_vi_to_france:0 "Exile Pope Pius VI To France"
 
@@ -205,6 +207,7 @@ FRA_austrian_deserters:0 "Austrian Deserters"
 FRA_austrian_deserters_desc:0 "They know us for our military power and for the victories of our regiments and generals. But above all because our cause is just, we are not massacring their armies because we want to, but because the Emperor of Austria fears us. The eagle no longer flies on the banners of some of their regiments, as they have joined our ranks to unite depose the emperor once and for all."
 
 FRA_enlist_dutchmen:0 "Enlist Dutchmen"
+FRA_enlist_dutchmen_desc:0 "The Netherlands has always been under foreign rule and under servitude to a king hundreds of kilometers away, the Habsburgs have dominated until recently when they freed themselves. The resentment that their culture has been attempted to be replaced or assimilated is their reason to join our fight against absolutist and imperialist powers. In the end, that is also Revolution."
 
 FRA_enlist_belgians:0 "Enlist Belgians"
 
@@ -220,22 +223,7 @@ FRA_irish_deserters_desc:0 "The Irish people observe our victories from the oppr
 FRA_enlist_itallians:0 "Enlist Italians"
 
 FRA_enlist_swiss:0 "Enlist Swiss"
-
-FRA_colonial_focus:0 "Colonial Focus"
-
-FRA_american_colonies:0 "American Colonies"
-
-FRA_asain_colonies:0 "Asian Colonies"
-
-FRA_african_colonies:0 "African Colonies"
-
-FRA_carribean_colonies:0 "Carribean Colonies"
-
-FRA_negotiate_with_the_rebels:0 "Negotiate With The Rebels"
-
-FRA_let_go_of_st_domingue:0 "Let Go Of St. Domingue"
-
-FRA_guarantees_of_anti_royalism:0 "Guarantees Of Anti Royalism"
+FRA_enlist_swiss_desc:0 "Between the Alps hides an important Germanic culture and society, Switzerland, it is also another objective of the Revolution as it is a strategic position to counterattack Austria and also for being another bastion of the Ancien Regime by using its characteristic system of feudal cantons instead of a centralized republican state. It doesn't matter, some Swiss volunteer will fight with us to fight that same system and for a better future."
 
 FRA_appoint_napoleon_hc:0 "§BYou Promoted Napoleon§!"
 FRA_appoint_napoleon_hc_tt:0 "§OYou Unlocked Napoleon As Military High Command§!"

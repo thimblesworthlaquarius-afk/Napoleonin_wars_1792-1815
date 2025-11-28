@@ -3344,5 +3344,25 @@ spriteTypes = {
 	    name = "GFX_FRA_enlist_dutchmen"
 	    texturefile = "gfx/interface/goals/FRA/FRA_enlist_dutchmen.dds"			
 	}
+	SpriteType = {
+	    name = "GFX_FRA_last_of_royal"
+	    texturefile = "gfx/interface/goals/FRA/FRA_last_of_royal.dds"			
+	}
+	SpriteType = {
+	    name = "GFX_FRA_enlist_swiss"
+	    texturefile = "gfx/interface/goals/FRA/FRA_enlist_swiss.dds"			
+	}
+	SpriteType = {
+	    name = "GFX_FRA_tax_swiss"
+	    texturefile = "gfx/interface/goals/FRA/FRA_tax_swiss.dds"			
+	}
+	SpriteType = {
+	    name = "GFX_FRA_genoa"
+	    texturefile = "gfx/interface/goals/FRA/FRA_genoa.dds"			
+	}
+	SpriteType = {
+	    name = "GFX_FRA_careful_uk"
+	    texturefile = "gfx/interface/goals/FRA/FRA_careful_uk.dds"			
+	}
 
 }

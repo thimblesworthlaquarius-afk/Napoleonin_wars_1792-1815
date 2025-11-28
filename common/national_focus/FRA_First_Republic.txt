@@ -602,7 +602,7 @@ focus_tree = {
 
 	focus = {
 		id = FRA_the_last_of_the_royals
-		icon = GFX_focus_fra_le_deluge
+		icon = GFX_FRA_last_of_royal
 		x = 0
 		y = 12
 		cost = 3.6
@@ -1077,10 +1077,10 @@ focus_tree = {
 
 	focus = {
 		id = FRA_tax_the_swiss_cantons
-		icon = GFX_focus_fra_le_deluge
+		icon = GFX_FRA_tax_swiss
 		x = -22
 		y = 6
-		cost = 5.5
+		cost = 3.6
 		search_filters = { FOCUS_FILTER_POLITICAL }	
 		prerequisite = { focus = FRA_extract_swiss_riches }
 		relative_position_id = FRA_promote_napoleon
@@ -1104,7 +1104,7 @@ focus_tree = {
 
 	focus = {
 		id = FRA_fate_genoa
-		icon = GFX_focus_fra_le_deluge
+		icon = GFX_FRA_genoa
 		x = -20
 		y = 4
 		cost = 5.5
@@ -1135,7 +1135,7 @@ focus_tree = {
 
 	focus = {
 		id = FRA_careful_uk_navy
-		icon = GFX_focus_fra_le_deluge
+		icon = GFX_FRA_careful_uk
 		x = -20
 		y = 5
 		cost = 5.5
@@ -1638,7 +1638,7 @@ focus_tree = {
 
 	focus = {
 		id = FRA_enlist_swiss
-		icon = GFX_focus_fra_le_deluge
+		icon = GFX_FRA_enlist_swiss
 		x = 6
 		y = 2
 		cost = 6
