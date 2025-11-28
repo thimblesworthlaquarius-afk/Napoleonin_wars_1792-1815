@@ -37,6 +37,8 @@ recruit_character = POL_Micha_Kazimierz_Oginski
 recruit_character = POL_jan_henryk_dabrowski
 recruit_character = POL_Stanislaw_new
 recruit_character = POL_tadeusz
+recruit_character = POL_tadeusz_kosciuszko
+recruit_character = POL_young_poniatowski
 
 
 

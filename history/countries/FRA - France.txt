@@ -5,9 +5,8 @@ capital = 16
 
 oob = FRA_1936
 
-set_convoys = 300
+set_convoys = 100
 set_cosmetic_tag = KIN_FRA
-naval_base_supply_hub = yes
 
 set_research_slots = 3
 

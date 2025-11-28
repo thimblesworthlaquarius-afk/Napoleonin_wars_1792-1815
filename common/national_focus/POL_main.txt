@@ -109,8 +109,6 @@ focus_tree = {
 		cost = 3
 		prerequisite = { focus = POL_open_closed_factories }
 		completion_reward = {
-		recruit_character = POL_tadeusz_kosciuszko
-		recruit_character = POL_young_poniatowski
 		}
 	}
 	focus = {

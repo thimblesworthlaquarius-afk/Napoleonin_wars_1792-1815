@@ -12,9 +12,8 @@ set_politics = {
 
 }
 set_popularities = {
-    authoritarian_democracy = 0.70
-    neutrality = 0.20
-    communism = 0.05
+    authoritarian_democracy = 0.75
+    democratic = 0.20
 }
 add_equipment_to_stockpile = {
 	type = infantry_equipment_0
