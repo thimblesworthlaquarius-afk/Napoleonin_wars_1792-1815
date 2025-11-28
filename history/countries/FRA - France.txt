@@ -102,7 +102,6 @@ recruit_character = FRA_Moreau
 recruit_character = FRA_Dampierre
 recruit_character = FRA_Antoine_Charles_Louis_Lasalle
 recruit_character = FRA_Henri-Amedee-Mercure_de_Turenne
-recruit_character = FRA_Domouriez
 recruit_character = FRA_Barthelemy_Catherine_Joubert
 recruit_character = FRA_Auguste_de_Marmont
 recruit_character = FRA_Gabriel_Jean_Joseph_Molitor

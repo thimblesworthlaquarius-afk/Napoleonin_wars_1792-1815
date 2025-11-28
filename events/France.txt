@@ -35,6 +35,7 @@ country_event = {
 		name = france.2.a
 		retire_character = FRA_Gilbert_du_Motier_de_Lafayette
 		set_global_flag = lafayette_desert
+		recruit_character = FRA_Domouriez
 		add_manpower = -1
 		ai_chance = {
 			factor = 100	

@@ -385,7 +385,7 @@ characters={
 				small="gfx/leaders/FRA/Portrait_France_Gilbert_du_Motier_de_Lafayette.dds"
 			}
 		}
-		corps_commander={
+		field_marshal={
 			traits={ inspirational_leader politically_connected   }
 			skill=4
 			attack_skill=3
@@ -512,8 +512,7 @@ characters={
 		name="Louis Alexandre Berthier"
 		portraits={
 			army={
-				large="gfx/leaders/FRA/Portrait_France_Louis_Alexandre_Berthier.dds"
-				small="gfx/leaders/FRA/Portrait_France_Louis_Alexandre_Berthier.dds"
+				large="gfx/leaders/FRA/Louis-Alexandre_Berthier.dds"
 			}
 		}
 		corps_commander={
@@ -584,8 +583,7 @@ characters={
 		name="Antoine Charles Louis Lasalle"
 		portraits={
 			army={
-				large="gfx/leaders/FRA/Portrait_France_Antoine Charles Louis Lasalle.dds"
-				small="gfx/leaders/FRA/Portrait_France_Antoine Charles Louis Lasalle.dds"
+				large="gfx/leaders/FRA/antoine_charles_louis_lasalle.dds"
 			}
 		}
 		corps_commander={
@@ -624,7 +622,7 @@ characters={
 				small="gfx/leaders/FRA/Portrait_France_Domouriez.dds"
 			}
 		}
-		corps_commander={
+		field_marshal={
 			traits={    }
 			skill=2
 			attack_skill=4
