@@ -174,3 +174,11 @@ music = {
 		}		
 	}
 }
+music = {
+	song = "mr_veto"
+	chance = {
+		modifier = {
+			factor = 0.5
+		}		
+	}
+}

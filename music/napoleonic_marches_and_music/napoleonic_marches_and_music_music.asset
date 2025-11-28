@@ -101,4 +101,9 @@ music = {
 	file = "jingle_bells.ogg"
 	volume = 0.65
 }
+music = {
+	name = "mr_veto"
+	file = "mr_veto.ogg"
+	volume = 0.75
+}
 
