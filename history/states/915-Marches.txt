@@ -12,7 +12,7 @@ state={
 		}
 		add_core_of = PPL
 		victory_points = {
-            6606 3
+            6606 30
         }
 	}
 	manpower=32500

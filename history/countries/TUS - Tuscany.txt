@@ -2,6 +2,8 @@ capital = 162
 
 set_convoys = 300
 
+oob = TUS_1792
+
 add_ideas = {
 	
 }
@@ -22,6 +24,8 @@ set_popularities = {
 add_ideas = {
 	INT_italian_identity
 	catholic
+	absolute
+	mildintervention
 }
 
 recruit_character = TUS_Ferdinand_III

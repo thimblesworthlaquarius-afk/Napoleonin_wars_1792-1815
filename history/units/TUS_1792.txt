@@ -1,0 +1,89 @@
+division_template = {
+    name = "Tuscan Line Infantry"
+    priority = 2
+
+    regiments = {
+        infantry = { x = 0 y = 0 }
+        infantry = { x = 1 y = 0 }
+        infantry = { x = 2 y = 0 }
+
+        infantry = { x = 0 y = 1 }
+        infantry = { x = 1 y = 1 }
+        infantry = { x = 2 y = 1 }
+
+        infantry = { x = 0 y = 2 }
+        infantry = { x = 1 y = 2 }
+    }
+
+    support = {
+        artillery = { x = 0 y = 0 }
+    }
+}
+
+division_template = {
+    name = "Tuscan Militia"
+    priority = 1
+
+    regiments = {
+        infantry = { x = 0 y = 0 }
+        infantry = { x = 1 y = 0 }
+
+        infantry = { x = 0 y = 1 }
+        infantry = { x = 1 y = 1 }
+    }
+}
+
+division_template = {
+    name = "Tuscan Dragoons"
+    priority = 2
+
+    regiments = {
+        cavalry = { x = 0 y = 0 }
+        cavalry = { x = 1 y = 0 }
+
+        cavalry = { x = 0 y = 1 }
+    }
+
+    support = {
+        recon = { x = 0 y = 0 }
+    }
+}
+
+###########################
+###      UNITS          ###
+###########################
+
+units = {
+
+    #########################
+    # FLORENCE / CAPITAL
+    #########################
+
+    division = {
+        name = "1st Florentine Line"
+        location = 9907
+        division_template = "Tuscan Line Infantry"
+        start_experience_factor = 0.3
+        start_equipment_factor = 0.7
+    }
+
+    division = {
+        name = "Florence Militia"
+        location = 11833
+        division_template = "Tuscan Militia"
+        start_experience_factor = 0.2
+        start_equipment_factor = 0.6
+    }
+
+    #########################
+    # LIVORNO / COAST
+    #########################
+
+    division = {
+        name = "Grand Ducal Dragoons"
+        location = 11833
+        division_template = "Tuscan Dragoons"
+        start_experience_factor = 0.25
+        start_equipment_factor = 0.6
+    }
+}
