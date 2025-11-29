@@ -8,8 +8,7 @@ state= {
 	
 	state_category = town
 
-	history=
-	{
+	history = {
 		owner = DEN
 		victory_points = {
 			6364 3 
@@ -17,7 +16,6 @@ state= {
 		buildings = {
 			infrastructure = 4
 			industrial_complex = 3
-			air_base = 2
 			394 = {
 				naval_base = 3
 			}

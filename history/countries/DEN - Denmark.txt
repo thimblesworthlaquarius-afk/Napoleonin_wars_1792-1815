@@ -2,6 +2,8 @@ capital = 37
 
 set_convoys = 300
 
+oob = DEN_1792
+
 
 set_politics = {
 	ruling_party = monarchist

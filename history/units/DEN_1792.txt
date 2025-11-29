@@ -1,0 +1,184 @@
+﻿division_template = {
+    name = "Dano-Norwegian Line Infantry"
+    priority = 2
+
+    regiments = {
+        infantry = { x = 0 y = 0 }
+        infantry = { x = 1 y = 0 }
+        infantry = { x = 2 y = 0 }
+
+        infantry = { x = 0 y = 1 }
+        infantry = { x = 1 y = 1 }
+        infantry = { x = 2 y = 1 }
+
+        infantry = { x = 0 y = 2 }
+        infantry = { x = 1 y = 2 }
+    }
+
+    support = {
+        artillery = { x = 0 y = 0 }
+    }
+}
+
+division_template = {
+    name = "Light Infantry (Jæger)"
+    priority = 2
+
+    regiments = {
+        infantry = { x = 0 y = 0 }
+        infantry = { x = 1 y = 0 }
+        infantry = { x = 2 y = 0 }
+
+        infantry = { x = 0 y = 1 }
+        infantry = { x = 1 y = 1 }
+    }
+
+    support = {
+        artillery = { x = 0 y = 0 }
+        recon     = { x = 1 y = 0 }
+    }
+}
+
+division_template = {
+    name = "Cavalry Brigade"
+    priority = 2
+
+    regiments = {
+        cavalry = { x = 0 y = 0 }
+        cavalry = { x = 1 y = 0 }
+
+        cavalry = { x = 0 y = 1 }
+        cavalry = { x = 1 y = 1 }
+    }
+
+    support = {
+        recon = { x = 0 y = 0 }
+    }
+}
+
+division_template = {
+    name = "Militia / Landwehr"
+    priority = 1
+
+    regiments = {
+        infantry = { x = 0 y = 0 }
+        infantry = { x = 1 y = 0 }
+
+        infantry = { x = 0 y = 1 }
+        infantry = { x = 1 y = 1 }
+    }
+}
+units = {
+
+    #########################
+    # DENMARK PROPER
+    #########################
+
+    # Copenhagen / Zealand
+    division = {
+        name = "1st Zealand Line"
+        location = 6287
+        division_template = "Dano-Norwegian Line Infantry"
+        start_experience_factor = 0.3
+        start_equipment_factor = 0.7
+    }
+    division = {
+        name = "2nd Zealand Line"
+        location = 6287
+        division_template = "Dano-Norwegian Line Infantry"
+        start_experience_factor = 0.25
+        start_equipment_factor = 0.65
+    }
+
+    division = {
+        name = "Copenhagen Garrison"
+        location = 6287
+        division_template = "Militia / Landwehr"
+        start_experience_factor = 0.2
+        start_equipment_factor = 0.6
+    }
+
+    # Jutland
+    division = {
+        name = "1st Jutland Line"
+        location = 3341
+        division_template = "Dano-Norwegian Line Infantry"
+        start_experience_factor = 0.25
+        start_equipment_factor = 0.6
+    }
+    division = {
+        name = "2nd Jutland Line"
+        location = 394
+        division_template = "Dano-Norwegian Line Infantry"
+        start_experience_factor = 0.2
+        start_equipment_factor = 0.55
+    }
+
+    division = {
+        name = "Jutland Garrison"
+        location = 6364
+        division_template = "Militia / Landwehr"
+        start_experience_factor = 0.15
+        start_equipment_factor = 0.5
+    }
+
+    # Schleswig-Holstein
+    division = {
+        name = "Schleswig Line"
+        location = 9347
+        division_template = "Dano-Norwegian Line Infantry"
+        start_experience_factor = 0.25
+        start_equipment_factor = 0.6
+    }
+
+    # Cavalry
+    division = {
+        name = "1st Cavalry Brigade"
+        location = 6115
+        division_template = "Cavalry Brigade"
+        start_experience_factor = 0.25
+        start_equipment_factor = 0.6
+    }
+    division = {
+        name = "2nd Cavalry Brigade"
+        location = 6115
+        division_template = "Cavalry Brigade"
+        start_experience_factor = 0.25
+        start_equipment_factor = 0.6
+    }
+
+    #########################
+    # NORWAY
+    #########################
+
+    division = {
+        name = "1st Norwegian Line"
+        location = 6115
+        division_template = "Dano-Norwegian Line Infantry"
+        start_experience_factor = 0.25
+        start_equipment_factor = 0.6
+    }
+    division = {
+        name = "2nd Norwegian Line"
+        location = 3022
+        division_template = "Dano-Norwegian Line Infantry"
+        start_experience_factor = 0.2
+        start_equipment_factor = 0.55
+    }
+
+    division = {
+        name = "Norwegian Jæger Corps"
+        location = 122
+        division_template = "Light Infantry (Jæger)"
+        start_experience_factor = 0.25
+        start_equipment_factor = 0.55
+    }
+
+    division = {
+        name = "Border Light Infantry"
+        location = 9116
+        division_template = "Light Infantry (Jæger)"
+        start_experience_factor = 0.2
+        start_equipment_factor = 0.5
+    }
+}
