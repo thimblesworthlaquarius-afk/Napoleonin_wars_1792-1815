@@ -56,6 +56,7 @@
  FRA_tax_swiss_canton: "Helvetic Contributions"
  FRA_tax_swiss_canton_desc: "The cantons of Switzerland have been bound into a new fiscal order, their treasuries and tax rolls redirected toward the needs of the Republic. Regular contributions from the Helvetic territories ease the burden on French taxpayers and help sustain our wars, even as resentment simmers in the Alpine valleys."
  FRA_givefour_troop: "You will Send Four French §Rexpeditionary§! troops to §YSouth Africa§!"
+ FRA_poor_militia: "Deploy Five French §RUntrained§! militia in §YParis§!"
 ####################
 ## Austrian Ideas ##
 ####################

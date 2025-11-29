@@ -518,6 +518,10 @@ focus_tree = {
 		relative_position_id = FRA_the_french_republic
 		completion_reward = {	
 			swap_ideas = { remove_idea = FRA_pre_10_august_army_1 add_idea = FRA_pre_10_august_army_2 }
+			hidden_effect = {
+			    load_oob = FRA_militia
+			}
+            custom_effect_tooltip = FRA_poor_militia			
 
 			add_war_support = 0.1
 		}

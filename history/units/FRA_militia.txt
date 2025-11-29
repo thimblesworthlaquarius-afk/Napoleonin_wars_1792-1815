@@ -1,0 +1,49 @@
+division_template = {
+    name = "Citizen Soldier"
+    priority = 1 
+
+    regiments = {
+        infantry = { x = 0 y = 0 }
+        infantry = { x = 1 y = 0 }
+        infantry = { x = 0 y = 1 }
+        infantry = { x = 1 y = 1 }
+    }
+}
+
+units = {
+    division = {
+        name = "Citizen Soldier I"
+        location = 11506
+        division_template = "Citizen Soldier"
+        start_experience_factor = 0.05
+        start_equipment_factor = 0.3
+    }
+    division = {
+        name = "Citizen Soldier II"
+        location = 11506
+        division_template = "Citizen Soldier"
+        start_experience_factor = 0.05
+        start_equipment_factor = 0.3
+    }
+    division = {
+        name = "Citizen Soldier III"
+        location = 11506
+        division_template = "Citizen Soldier"
+        start_experience_factor = 0.05
+        start_equipment_factor = 0.3
+    }
+    division = {
+        name = "Citizen Soldier IV"
+        location = 11506
+        division_template = "Citizen Soldier"
+        start_experience_factor = 0.05
+        start_equipment_factor = 0.3
+    }
+    division = {
+        name = "Citizen Soldier V"
+        location = 11506
+        division_template = "Citizen Soldier"
+        start_experience_factor = 0.05
+        start_equipment_factor = 0.3
+    }
+}
