@@ -227,67 +227,17 @@ FRA_enlist_itallians:0 "Enlist Italians"
 FRA_enlist_swiss:0 "Enlist Swiss"
 FRA_enlist_swiss_desc:0 "Between the Alps hides an important Germanic culture and society, Switzerland, it is also another objective of the Revolution as it is a strategic position to counterattack Austria and also for being another bastion of the Ancien Regime by using its characteristic system of feudal cantons instead of a centralized republican state. It doesn't matter, some Swiss volunteer will fight with us to fight that same system and for a better future."
 
+FRA_puppet_belgium:0 "Establish Belgian Republic"
+
+
 FRA_appoint_napoleon_hc:0 "§BYou Promoted Napoleon§!"
 FRA_appoint_napoleon_hc_tt:0 "§OYou Unlocked Napoleon As Military High Command§!"
 unlock_rhine_intergate_tt:0 "§RYou Unlocked Rhine Integration Decision§!"
+FRA_puppet_bel_tt:0 "§RYou Unlocked Establish Belgian Republic Decision§!"
 FRA_rome_fall: "Roman republic has been §REstablished§!"
 move_pope_opinion: "Deport Pope"
-
-
-FRA_brother_republic_in_the_carribean:0 "Brother Republic In The Carribean"
-
-FRA_first_expedition_to_st_domingue:0 "First Expedition To St. Domingue"
-
-FRA_preserve_slavery:0 "Preserve Slavery"
-
-FRA_slave_soldiers:0 "Slave Soldiers"
-
-FRA_upper_class_gendarmerie:0 "Upper Class Gendarmerie"
-
-FRA_local_formations:0 "Local Formations"
-
-FRA_colonial_demi_brigades:0 "Colonial Demi Brigades"
-
-FRA_abolish_slave:0 "Abolish Slavery"
-FRA_abolish_slave_desc:0 "Humanity long ago decided to torture itself through the suffering of slavery to nobles and aristocrats, from ancient Egypt to the colonial era, it is a condition of servitude in which you must serve your lord for life. We do not believe that this is the right thing to do, of course, we must value every life that continues to exist in France, in honor of the freedom and equality of every human being."
-
-FRA_amnesty_for_service:0 "Amnesty For Service"
-
-FRA_communal_guard:0 "Communal Guard"
-
-FRA_local_formations:0 "Local Formations"
-
-FRA_garde_nationale_de_st_domingue:0 "Garde Nationale De St. Domingue"
-
-FRA_bolster_local_governance:0 "Bolster Local Governance"
-
-FRA_reinforce_sonthonax_rule:0 "Reinforce Sonthonax Rule"
-
-FRA_increase_the_civil_commissioners_power:0 "Increase The Civic Commissioners Power"
-
-FRA_strip_military_power_from_local_whites:0 "Strip Military Power From Local Whites"
-
-FRA_negotiate_with_the_rebels:0 "Negotiate With The Rebels"
-
-FRA_let_go_of_st_domingue:0 "Let Go Of St. Domingue"
-
-FRA_guarantees_of_anti_royalism:0 "Guarantees Of Anti Royalism"
-
-FRA_support_sonthonax:0 "Support Sonthonax"
-
-FRA_support_louverture:0 "Support Louverture"
-
-FRA_napoleons_special_laws:0 "Napoleons Special Laws"
-
-FRA_second_expedition_to_st_domingue:0 "Second Expedition To St. Domingue"
-
-FRA_re-establish_slavery_on_guedeloupe:0 "Re-Establish Slavery On Guedeloupe"
-
-FRA_victory_in_st_domingue:0 "Victory In St. Domingue"
-
-FRA_direct_rule_from_paris:0 "Direct Rule From Paris"
-
-FRA_return_of_haitian_slavery:0 "Return Of Haitian Slavery"
+FRA_puppet_bel_state: "Establish Belgian Republic"
+FRA_integrate_genoa_state: "Intergrate Genoa"
 FRA_organizer_of_victory:0 "Organizer of Victory"
 FRA_representatives_on_mission:0 "Representatives in Front"
 FRA_meritocratic_officer_corps:0 "Meritocratic Officer Corps"

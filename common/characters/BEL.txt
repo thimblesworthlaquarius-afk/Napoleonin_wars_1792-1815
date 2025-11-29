@@ -1,0 +1,31 @@
+characters={
+	BEL_Henri_van_der_Noot_1={
+		name="Henri van der Noot"
+		portraits={
+			civilian={
+				large="gfx/leaders/BEL/Henri_van_der_Noot.dds"
+			}
+		}
+		country_leader={
+			ideology=authoritarian_democracy
+			traits={ dictator }
+			expire="1819.10.6.1"
+			id=-1
+		}
+	}
+	
+	BEL_Henri_van_der_Noot_2={
+		name="Henri van der Noot"
+		portraits={
+			civilian={
+				large="gfx/leaders/BEL/Henri_van_der_Noot.dds"
+			}
+		}
+		country_leader={
+			ideology=jacobinism
+			traits={ }
+			expire="1819.10.6.1"
+			id=-1
+		}
+	}
+}

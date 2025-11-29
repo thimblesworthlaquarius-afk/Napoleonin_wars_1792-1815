@@ -920,7 +920,7 @@ focus_tree = {
 		id = FRA_promote_napoleon
 		icon = GFX_promote_napoleon
 		x = -4
-		y = 7
+		y = 10
 		cost = 2
 		search_filters = { FOCUS_FILTER_POLITICAL }		
 		completion_reward = {	
@@ -940,6 +940,7 @@ focus_tree = {
 		cost = 5
 		search_filters = { FOCUS_FILTER_POLITICAL }	
 		prerequisite = { focus = FRA_promote_napoleon }
+		mutually_exclusive = { focus = FRA_puppet_belgium }
 		relative_position_id = FRA_promote_napoleon
 
 		available = {	
@@ -951,6 +952,26 @@ focus_tree = {
 	        custom_effect_tooltip = FRA_annex_bel_tt
 		}
 	}
+	focus = {
+		id = FRA_puppet_belgium
+		icon = GFX_annex_bel
+		x = 2
+		y = 1
+		cost = 5
+		search_filters = { FOCUS_FILTER_POLITICAL }	
+		prerequisite = { focus = FRA_promote_napoleon }
+		mutually_exclusive = { focus = FRA_annex_belgium }
+		relative_position_id = FRA_promote_napoleon
+
+		available = {	
+			has_war_with = AUS
+		}
+		
+
+		completion_reward = {		
+	        custom_effect_tooltip = FRA_puppet_bel_tt
+		}
+	}
 
 	focus = {
 		id = FRA_sister_republics
@@ -959,7 +980,10 @@ focus_tree = {
 		y = 2
 		cost = 3
 		search_filters = { FOCUS_FILTER_POLITICAL }	
-		prerequisite = { focus = FRA_annex_belgium }
+		prerequisite = { 
+		    focus = FRA_annex_belgium 
+			focus = FRA_puppet_belgium 
+		}
 		relative_position_id = FRA_promote_napoleon
 		available = {
 		}
@@ -1502,7 +1526,10 @@ focus_tree = {
 		available = { 
 		    has_completed_focus = FRA_arm_youself_citizens 
 		}
-		prerequisite = { focus = FRA_annex_belgium }
+		prerequisite = { 
+		    focus = FRA_annex_belgium 
+			focus = FRA_puppet_belgium 
+		}
 		relative_position_id = FRA_promote_napoleon
 		completion_reward = {	
 		    swap_ideas = { remove_idea = FRA_pre_10_august_army_2 add_idea = FRA_pre_10_august_army_3 }
@@ -1591,7 +1618,10 @@ focus_tree = {
 		y = 3
 		cost = 5
 		search_filters = { FOCUS_FILTER_POLITICAL }	
-		prerequisite = { focus = FRA_annex_belgium }
+		prerequisite = { 
+		    focus = FRA_annex_belgium 
+			focus = FRA_puppet_belgium 
+		}
 		relative_position_id = FRA_promote_napoleon
 		completion_reward = {
             custom_effect_tooltip = unlock_rhine_intergate_tt		
