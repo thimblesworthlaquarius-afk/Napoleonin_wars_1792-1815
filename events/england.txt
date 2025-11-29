@@ -1,0 +1,27 @@
+﻿###########################
+# england Events
+###########################
+
+add_namespace = englands
+
+country_event = {
+	id = englands.1
+	title = englands.1.t
+	desc = englands.1.d
+	picture = GFX_report_uk_time_travel
+	
+	trigger = {
+	    tag = ENG
+		date > 1794.1.16
+	}
+	fire_only_once = yes
+	
+	option = {
+		name = englands.1.a
+		custom_effect_tooltip = timetravel_image_credit
+		ai_chance = {
+			factor = 100
+		}
+	}
+}			
+

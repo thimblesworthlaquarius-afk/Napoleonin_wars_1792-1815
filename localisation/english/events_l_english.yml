@@ -76,7 +76,8 @@
  france.505.e: "Atheism it is."
  POL_cannot_create_troop_tt:0 "§RUnits cannot be trained, disbanded or have their templates modified.§!"
  FRA_intergate_genoa: "You Choose to §OIntergate Genoa§!"
- FRA_italy_win: "§BFrance§! Win in Italian Campaign"
+ FRA_italy_win: "§BFrance§! Won in Italian Campaign"
+ timetravel_image_credit: "This artwork was created by §GDavid Demaret§! You can find a link to his profile on our Discord server."
 
  france.4.t:0 "The Cisalpine Republic?"
  france.4.d:0 ""
@@ -177,3 +178,9 @@
 
  MENU_DISCORD:0 "Click Here To Join Our §1Discord!"
  SPIRIT_ADD_IDEA:0 "Click Here To Add An Idea"
+ 
+ ## England events ##
+
+ englands.1.t: "The Day We Saw Ourselves in the Woods…"
+ englands.1.d: "I still feel the chill of that afternoon when my spouse and I left the manor for a quiet walk. Though our marriage had begun as an arrangement, time had shaped it into something gentler, something real. We spoke softly as we entered the forest near our estate, brushing aside branches heavy with the scent of autumn. That was when we heard voices.\n\nAt first, I thought it was some wandering poacher or travelers seeking shelter. But as we approached, curiosity overtaking caution, we saw two figures through the trees, two guys bent over a strange contraption of metal, gears, and humming light.\n\nWe froze. Because the faces illuminated by that glow… were our own. Older, perhaps. Wearier, certainly. But unmistakably us. I pulled my spouse behind a tree, and we watched as our future selves argued in hushed, frustrated tones. “It’s overheated again,” a guy groaned, striking the side of the machine. “You said the calibration would hold this time!”\n\n“And it would have,” the other guy snapped back, “If someone hadn’t insisted we land so close to the manor. If they see us-”\n\n“They won’t,” the other replied, though with little confidence. “We’ll fix it and get back. Before… well, before anything unravels.”\n\nThe device, whatever it was, hissed like an angry kettle, pulsing with an eerie light. They both leaned over it, muttering about timelines, disruptions, and something they called a “temporal anchor.” Every word felt like an intrusion into a world I was never meant to hear. Then, without warning, the machine shrieked.A flash burst across the clearing, scattering leaves and bending branches with a sudden gust. When I opened my eyes, the clearing was empty. The machine, and the two people, had vanished completely, swallowed by time, or spat back into it. My spouse and I remained hidden for a long moment, hearts pounding. Neither of us spoke. There was nothing to say, and far too much to think. Whatever we had witnessed was impossible… and yet it had happened all the same.\n\nWhen we finally made our way home, hand in hand, the forest felt different, quieter, heavier. The world seemed suddenly larger, stranger, full of mysteries we had unknowingly brushed against. And though we never spoke of it again, I sometimes wonder:\n\nWhat future were they returning to? And what future waits for us now, having seen them at all?"
+ englands.1.a: "Is this supposed to be a Napoleonic mod or a time-travel mod?"

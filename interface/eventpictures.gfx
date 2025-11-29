@@ -88,6 +88,10 @@ spriteTypes = {
 		name = "GFX_report_fate_religion"
 		texturefile = "gfx/event_pictures/report_fate_religion.dds"
 	}
+	spriteType = {
+		name = "GFX_report_uk_time_travel"
+		texturefile = "gfx/event_pictures/report_uk_time_travel.dds"
+	}
 
 }
 

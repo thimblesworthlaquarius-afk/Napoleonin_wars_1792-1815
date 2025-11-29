@@ -203,7 +203,7 @@ FRA_exile_pope_pius_vi_to_france:0 "Exile Pope Pius VI To France"
 FRA_enlist_foreigners:0 "Enlist Foreigners"
 
 FRA_prussian_deserters:0 "Prussian Deserters"
-FRA_prussian_deserters_desc:0 "The tricolor banners march over Germanic territory. It is a war of attrition, but with a political cause, we are a people who have decided freedom before servitude while the Prussian monarchy has still been left behind. But there are Prussians who are aware that the best thing is to prioritize their freedom before their identity; That is why we will welcome those who wish to march in our lines in the name of liberation."
+FRA_prussian_deserters_desc:0 "The tricolor banners march over Germanic territory. but with a political cause, we are a people who have decided freedom before servitude while the Prussian monarchy has still been left behind. But there are Prussians who are aware that the best thing is to prioritize their freedom before their identity; That is why we will welcome those who wish to march in our name."
 
 FRA_austrian_deserters:0 "Austrian Deserters"
 FRA_austrian_deserters_desc:0 "They know us for our military power and for the victories of our regiments and generals. But above all because our cause is just, we are not massacring their armies because we want to, but because the Emperor of Austria fears us. The eagle no longer flies on the banners of some of their regiments, as they have joined our ranks to unite depose the emperor once and for all."
@@ -212,6 +212,7 @@ FRA_enlist_dutchmen:0 "Enlist Dutchmen"
 FRA_enlist_dutchmen_desc:0 "The Netherlands has always been under foreign rule and under servitude to a king hundreds of kilometers away, the Habsburgs have dominated until recently when they freed themselves. The resentment that their culture has been attempted to be replaced or assimilated is their reason to join our fight against absolutist and imperialist powers. In the end, that is also Revolution."
 
 FRA_enlist_belgians:0 "Enlist Belgians"
+FRA_enlist_belgians_desc:0 "Belgians are French speakers, we share the same blood and, like the Netherlands, Belgian lands have been disputed by the Austrians for a long time. With our brothers we will fight for the right to a state that is representative of our culture and ethnicity against the oppressive power of the Austrian Empire, the Belgians will take revenge once and for all for years of oppression."
 
 FRA_free_men_are_brothers:0 "Free Men Are Brothers"
 FRA_free_men_are_brothers_desc:0 "Our fervor breaks borders, borders and identities, it is a desire that is too strong, we all want to be free, the search for freedom is a feeling that connects all human beings on Earth. All seekers of freedom will join our fight to sink once and for all the oppressive feudal and absolutist monarchies that have ruled the world."
