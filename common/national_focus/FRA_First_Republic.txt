@@ -678,6 +678,7 @@ focus_tree = {
 		relative_position_id = FRA_the_french_republic
 		completion_reward = {	
             add_stability = -0.20
+			country_event = { id = france.505 }
 		
 		}
 	}

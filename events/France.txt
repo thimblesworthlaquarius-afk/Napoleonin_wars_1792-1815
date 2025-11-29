@@ -349,6 +349,45 @@ country_event = {
 		}	
 	}
 }
+country_event = {
+	id = france.505
+	title = france.505.a
+	desc = france.505.b
+	picture = GFX_report_fate_religion
+	fire_only_once = yes
+	is_triggered_only = yes	
+	
+	option = {
+		name = france.505.c
+        add_ideas = cult_of_supreme_being				
+		ai_chance = {
+			factor = 70	
+		}	
+	}
+	
+	option = {
+		name = france.505.d	
+        every_country = {
+                limit = {
+                    has_idea = catholic
+                }
+                add_opinion_modifier = {
+                    target = ROOT
+                    modifier = large_increase
+                }
+		}		
+		ai_chance = {
+			factor = 15
+		}	
+	}
+	option = {
+		name = france.505.e
+        add_ideas = atheism			
+		ai_chance = {
+			factor = 15
+		}	
+	}
+}
 
 
 
