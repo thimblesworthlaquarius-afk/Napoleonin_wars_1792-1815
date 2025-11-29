@@ -586,6 +586,38 @@ ideas = {
 		}
 	}
 	
+	FRA_irish_desert = {
+		picture = polish_deserters
+		allowed = {
+			original_tag = FRA
+		}
+
+		removal_cost = -1
+		
+		targeted_modifier = {					
+			tag = ENG
+			attack_bonus_against = 0.05
+			defense_bonus_against = 0.05
+
+		}
+	}
+	
+	FRA_holland_desert = {
+		picture = polish_deserters
+		allowed = {
+			original_tag = FRA
+		}
+
+		removal_cost = -1
+		
+		targeted_modifier = {					
+			tag = HOL
+			attack_bonus_against = 0.05
+			defense_bonus_against = 0.05
+
+		}
+	}
+	
 	FRA_bel_soldier = {
 		picture = 
 		allowed = {

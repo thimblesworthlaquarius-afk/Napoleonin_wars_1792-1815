@@ -1635,7 +1635,7 @@ focus_tree = {
 		icon = GFX_foreign_ally
 		x = -23
 		y = 5
-		cost = 6
+		cost = 3.5
 		search_filters = { FOCUS_FILTER_POLITICAL }	
 		completion_reward = {	
 			add_manpower = 50000
@@ -1647,12 +1647,12 @@ focus_tree = {
 		icon = GFX_FRA_enlist_dutchmen
 		x = -6
 		y = 1
-		cost = 6
+		cost = 5
 		search_filters = { FOCUS_FILTER_POLITICAL }	
 		prerequisite = { focus = FRA_enlist_foreigners }
 		relative_position_id = FRA_enlist_foreigners
 		completion_reward = {	
-			add_manpower = 20000
+			add_ideas = FRA_holland_desert
 		}
 	}
 
@@ -1691,7 +1691,7 @@ focus_tree = {
 		icon = GFX_FRA_enlist_swiss
 		x = 6
 		y = 2
-		cost = 6
+		cost = 2
 		search_filters = { FOCUS_FILTER_POLITICAL }	
 		prerequisite = { focus = FRA_enlist_itallians }
 		relative_position_id = FRA_enlist_foreigners
@@ -1720,12 +1720,13 @@ focus_tree = {
 		icon = GFX_FRA_ireland_enlist
 		x = 2
 		y = 2
-		cost = 6
+		cost = 5
 		search_filters = { FOCUS_FILTER_POLITICAL }	
 		prerequisite = { focus = FRA_polish_deserters }
 		relative_position_id = FRA_enlist_foreigners
 		completion_reward = {	
 			add_manpower = 10000
+			add_ideas = FRA_irish_desert
 		}
 	}
 
