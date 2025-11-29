@@ -35,11 +35,6 @@ QNG = {
 	color_ui = rgb { 204  204  0 }
 }
 
-LAD = {
-	color = rgb { 157  86  134 }
-	color_ui = rgb { 157  86  134 }
-}
-
 MAR = {
 	color = rgb { 172  102  58 }
 	color_ui = rgb { 172  102  58 }
