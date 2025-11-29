@@ -19,6 +19,9 @@ set_popularities = {
 }
 
 add_ideas = {
+    no_monarch
+	protestant
+	splendidisolation
 }
 recruit_character = USA_george_washington
 
