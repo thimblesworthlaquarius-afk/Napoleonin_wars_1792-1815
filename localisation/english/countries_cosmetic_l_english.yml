@@ -92,6 +92,10 @@
  FRA_LUC_DEF:0 "the French Republic of Lucca"
  DSR_HOL:0 "Batavian Republic"
  DSR_HOL_DEF:0 "The Batavian Republic"
+ 
+ REP_BEL: "United Belgian States"
+ REP_BEL_DEF: "The United Belgian States"
+ REP_BEL_ADJ: "Belgian"
 
 
 ############################

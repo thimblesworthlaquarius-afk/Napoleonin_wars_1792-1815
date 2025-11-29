@@ -3,6 +3,11 @@ FRP_FRA = {
     color_ui = rgb { 57 113 228 }
 }
 
+REP_BEL = {
+    color = rgb { 66 176 255 }
+    color_ui = rgb { 66 176 255 }
+}
+
 BBN_BAN = {
     color = rgb { 198 0 0 }
     color_ui = rgb { 198 0 0 }
