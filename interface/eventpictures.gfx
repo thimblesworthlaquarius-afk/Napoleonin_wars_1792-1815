@@ -80,6 +80,10 @@ spriteTypes = {
 		name = "GFX_report_girodin_female_dead"
 		texturefile = "gfx/event_pictures/report_girodin_female_dead.dds"
 	}
+	spriteType = {
+		name = "GFX_report_death_of_louis_xvi"
+		texturefile = "gfx/event_pictures/report_death_of_louis_xvi.dds"
+	}
 
 }
 
