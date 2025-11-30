@@ -1244,13 +1244,39 @@ focus_tree = {
 	}
 
 	focus = {
-		id = FRA_lombard_administration
+		id = FRA_look_spain
 		icon = GFX_focus_fra_le_deluge
 		x = -16
 		y = 4
-		cost = 10
+		cost = 1
 		search_filters = { FOCUS_FILTER_POLITICAL }	
 		prerequisite = { focus = FRA_southern_republics }
+		relative_position_id = FRA_promote_napoleon
+		completion_reward = {	
+		}
+	}
+	focus = {
+		id = FRA_treaty_ildefonso
+		icon = GFX_focus_fra_le_deluge
+		x = -15
+		y = 6
+		cost = 5.5
+		search_filters = { FOCUS_FILTER_POLITICAL }	
+		mutually_exclusive = { focus = FRA_no_bourbon_king }
+		prerequisite = { focus = FRA_look_spain }
+		relative_position_id = FRA_promote_napoleon
+		completion_reward = {	
+		}
+	}
+	focus = {
+		id = FRA_no_bourbon_king
+		icon = GFX_focus_fra_le_deluge
+		x = -17
+		y = 6
+		cost = 5.5
+		search_filters = { FOCUS_FILTER_POLITICAL }	
+		prerequisite = { focus = FRA_look_spain }
+		mutually_exclusive = { focus = FRA_treaty_ildefonso }
 		relative_position_id = FRA_promote_napoleon
 		completion_reward = {	
 		}
