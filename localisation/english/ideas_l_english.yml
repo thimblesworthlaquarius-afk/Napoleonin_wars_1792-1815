@@ -66,10 +66,10 @@
  AUS_francis:0 "Francis The Great"
  
  AUS_ethnic_tension:0 "Ethnic Tension"
- AUS_ethnic_tension_desc:0 "Due to the expansive nature of the mighty Austrian Empire their territory spans over the native lands of many ethnic groups and cultures of which unfortunately do not co-exist well. \nUnfortunately this may prove a large issue to the Austrians causing a deterioration in their national stability."
+ AUS_ethnic_tension_desc:0 "Due to the expansive nature of the mighty Austrian Empire their territory spans over the native lands of many ethnic groups and cultures of which unfortunately do not co-exist well. \n\nUnfortunately this may prove a large issue to the Austrians causing a deterioration in their national stability."
 
  AUS_centre_of_europe:0 "Centre of Europe"
- AUS_centre_of_europe_desc:0 "The rather expansive Austrian Empire has long held a position of power within Europe, controlling the formerly might Holy Roman Empire, however as the politics within Europe changes so does the stability of the Holy Roman Empire, jeopardising Austria's influence within central Europe. \nThe brittle foundation of the once glorious Holy Roman Empire is beginning to crumble. What will the Emperor do?"
+ AUS_centre_of_europe_desc:0 "The rather expansive Austrian Empire has long held a position of power within Europe, controlling the formerly might Holy Roman Empire, however as the politics within Europe changes so does the stability of the Holy Roman Empire, jeopardising Austria's influence within central Europe. \n\nThe brittle foundation of the once glorious Holy Roman Empire is beginning to crumble. What will the Emperor do?"
 
  AUS_francis_the_great:0 "Francis The Great"
  AUS_francis_the_great_def:0 ""
@@ -92,7 +92,7 @@
 
 
  INT_papal_influence:0 "Papal Influence"
- INT_papal_influence_desc:0 "The Catholic church, based in the Vatican, Exerts its influence throughout the European continent, tightly controlling the politics of the time. \n\During this period the Catholic church encouraged people to stick with the traditional method of doing things, meaning that new methods were unapproved and unused."
+ INT_papal_influence_desc:0 "The Catholic church, based in the Vatican, Exerts its influence throughout the European continent, tightly controlling the politics of the time. \n\nDuring this period the Catholic church encouraged people to stick with the traditional method of doing things, meaning that new methods were unapproved and unused."
 
 
 ###################
@@ -162,9 +162,9 @@
  atheism:0 "Atheism"
  FRA_irish_desert:0 "Irish Deserter"
  FRA_holland_desert:0 "Holland Deserter"
- puppet_desc:0 "Our government exists only at the pleasure of a foreign overlord. Whether through military occupation, economic domination, or political manipulation, true sovereignty has been lost. Local officials may nominally govern, but all significant decisions require approval from our puppet masters.\n\The question of monarchy is irrelevant when the nation itself lacks independence."
- constitutional_desc:0 "The Monarch serves as the symbolic head of state while real political power resides in an elected parliament and government. This system balances tradition with modern governance, allowing the Crown to provide continuity and national unity while democratic institutions handle the day-to-day affairs of state.\n\The Monarch may still wield influence through soft power and ceremonial duties."
- absolute_desc:0 "The Monarch reigns supreme with unchallenged authority. All power flows from the Crown, and the will of the sovereign is law. Parliament, if it exists at all, serves merely as an advisory body to rubber-stamp royal decrees.\n\The aristocracy maintains its privileged position through loyalty to the throne, while the common people are subjects bound by ancient traditions of fealty."
- no_monarch_desc:0 "Our nation has abolished the monarchy entirely, rejecting hereditary privilege in favor of democratic or revolutionary principles. Power derives from the people or the party.\n\The symbols of the old regime have been swept away, replaced by institutions built on merit, ideology, or popular sovereignty."
+ puppet_desc:0 "Our government exists only at the pleasure of a foreign overlord. Whether through military occupation, economic domination, or political manipulation, true sovereignty has been lost. Local officials may nominally govern, but all significant decisions require approval from our puppet masters.\n\nThe question of monarchy is irrelevant when the nation itself lacks independence."
+ constitutional_desc:0 "The Monarch serves as the symbolic head of state while real political power resides in an elected parliament and government. This system balances tradition with modern governance, allowing the Crown to provide continuity and national unity while democratic institutions handle the day-to-day affairs of state.\n\nThe Monarch may still wield influence through soft power and ceremonial duties."
+ absolute_desc:0 "The Monarch reigns supreme with unchallenged authority. All power flows from the Crown, and the will of the sovereign is law. Parliament, if it exists at all, serves merely as an advisory body to rubber-stamp royal decrees.\n\nThe aristocracy maintains its privileged position through loyalty to the throne, while the common people are subjects bound by ancient traditions of fealty."
+ no_monarch_desc:0 "Our nation has abolished the monarchy entirely, rejecting hereditary privilege in favor of democratic or revolutionary principles. Power derives from the people or the party.\n\nThe symbols of the old regime have been swept away, replaced by institutions built on merit, ideology, or popular sovereignty."
 
 

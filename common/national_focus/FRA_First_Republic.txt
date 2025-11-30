@@ -1198,11 +1198,11 @@ focus_tree = {
 	}
 
 	focus = {
-		id = FRA_establish_a_civic_guard
-		icon = GFX_focus_fra_le_deluge
+		id = FRA_parthenopean_republic
+		icon = GFX_FRA_parthenopean_republic
 		x = -18
 		y = 4
-		cost = 5
+		cost = 5.5
 		search_filters = { FOCUS_FILTER_POLITICAL }	
 		prerequisite = { focus = FRA_southern_republics }
 		relative_position_id = FRA_promote_napoleon

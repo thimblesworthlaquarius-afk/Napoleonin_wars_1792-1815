@@ -39,6 +39,7 @@ FRA_careful_uk_navy:0 "infiltrate Great Britain Navy"
 FRA_crimes_against_liberty:0 "Crimes Against Liberty"
 
 FRA_purge_girodin:0 "Purge Girodins"
+FRA_purge_girodin_desc:0 "In this unique and real policy, the moderates are an obstacle to the path of the Revolution that the Republic must follow. No agreement can be reached with the Girondin federalists, who opposed the king's execution. If they defended the enemy of the Revolution, then we must purge the Girondins so that France can move forward."
 
 FRA_law_of_suspects:0 "Law Of Suspects"
 
@@ -179,14 +180,13 @@ FRA_fate_genoa_desc:0 "The city of Genoa and its nearby lands are vital to contr
 
 
 FRA_parthenopean_republic:0 "Parthenopean Republic"
+FRA_parthenopean_republic_desc:0 "Our tricolor flag flies over the Mediterranean lands of Naples, the mountains of Apulia and the beautiful beaches and coasts of the Adriatic and the Tyrrhenian. Mountains as high as Etna and Vesuvius and ancient vestiges of a Roman civilization and many that have passed are now in our possession, we will found a republic that prioritizes its cultural values ​​and not a crown already shattered."
 
-FRA_republic_of_sicily:0 "Republilc Of Sicily "
+FRA_republic_of_sicily:0 "Republilc Of Sicily"
 
 FRA_domination_of_southern_italy:0 "Domination Of Southern Italy"
 
 FRA_cispadane_republic:0 "Cispadane Republic"
-
-FRA_establish_a_civic_guard:0 "Establish A Civic Guard"
 
 FRA_cisalpine_republic:0 "Cisalpine Republic"
 
@@ -245,4 +245,5 @@ FRA_representatives_on_mission:0 "Representatives in Front"
 FRA_meritocratic_officer_corps:0 "Meritocratic Officer Corps"
 FRA_amalgame_reform:0 "Amalgame Reform"
 FRA_levee_en_masse:0 "Levée en Masse"
+FRA_levee_en_masse_desc:0 "Too much decline in troops at the front, too many deserters and deaths. From now on, young single or widowed men from all over France will be compulsorily recruited to defend the Republic from its many enemies. When we have repelled the attacks, they will be able to return to their homes."
 bel_offensive:0 "Belgium Offensive"

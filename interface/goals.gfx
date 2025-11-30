@@ -3364,5 +3364,9 @@ spriteTypes = {
 	    name = "GFX_FRA_careful_uk"
 	    texturefile = "gfx/interface/goals/FRA/FRA_careful_uk.dds"			
 	}
+	SpriteType = {
+	    name = "GFX_FRA_parthenopean_republic"
+	    texturefile = "gfx/interface/goals/FRA/FRA_parthenopean_republic.dds"			
+	}
 
 }
