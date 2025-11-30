@@ -175,6 +175,7 @@ FRA_extract_swiss_riches_desc:0 "The territories of Switzerland hold valuable re
 FRA_tax_the_swiss_cantons:0 "Tax The Swiss Cantons"
 
 FRA_fate_genoa:0 "Fate of Genoa"
+FRA_fate_genoa_desc:0 "The city of Genoa and its nearby lands are vital to control the economic routes through the Mediterranean Sea, so, unlike the other Italian regions, it is worth questioning whether it should be directly integrated into the French Republic or establish a protectorate like the others. We have to consider the gains and losses."
 
 
 FRA_parthenopean_republic:0 "Parthenopean Republic"
