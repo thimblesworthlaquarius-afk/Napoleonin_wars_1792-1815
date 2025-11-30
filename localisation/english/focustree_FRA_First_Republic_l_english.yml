@@ -1,13 +1,11 @@
 ﻿l_english:
 
-FRA_First_Republic:0 "First French republic focus"
+FRA_First_Republic:0 "First French Republic Focus"
 FRA_vive_la_france:0 "Vive La France"
-FRA_vive_la_france_desc:0 "For an entire millennium France has been one of the greatest cultural, military and historical centers in all of Europe and the world. From the barbaric Gallic tribes to the Carolingian Empire, it has been a country that struggled to survive the great hegemonies of the ancient era. From the extensive vineyards of Burgundy to the mountainous Pyrenees, Our culture and our history is incomparable to any other."
+FRA_vive_la_france_desc:0 "For an entire millennium France has been one of the greatest cultural, military and historical centers in all of Europe and the world. From the barbaric Gallic tribes to the Carolingian Empire, good and bad kings have reigned over the fertile and picturesque land of France during the colonial era, from the Valois to Bourbons Our nation has lived since time immemorial and will be protected to last forever, because God protects France."
 
 FRA_get_rid_of_the_catholic_church:0 "Get Rid Of The Catholic Church"
 FRA_get_rid_of_the_catholic_church_desc:0 "The Catholic Church has been the main source of faith for many centuries in our country. But times have changed and we have realized that religious fanaticism has only slowed down our destiny to progress as a society. Priests and bishops take our money, for what? Why do those who claim to speak in the name of God need our material goods? We must minimize the influence of the clergy as much as possible."
-
-FRA_create_the_cult_of_reason:0 "Create The Cult Of Reason"
 
 FRA_purge_royalist_officer:0 "Purge Royalist Officers"
 FRA_purge_royalist_officer_desc:0 "The royalist officers are in the dungeons, wondering if they will be able to pay bail or if they will be pardoned or guaranteed to serve the republic. But we have already decided about them, they will be executed for militarily supporting the king and the absolutist state, so they will pay for their crimes against the French people."
@@ -63,6 +61,7 @@ FRA_law_of_22_prairal:0 "Law Of 22 Prairal"
 FRA_law_of_22_prairal_desc:0 "The judicial process of the revolutionized court will be accelerated. Then no one will be able to escape the hammer of our justice, the accused will no longer be able to present evidence or be interrogated, and death sentences will not be able to be appealed, The Reign of Terror will be reinforced and thousands will die without being able to escape, but they will be forgotten, they will be only a statistic for history."
 
 FRA_final_victims:0 "Final Victims"
+FRA_final_victims_desc:0 "The Reign of Terror has lasted too long and just as much fraternal blood has been spilled on our country. This Jacobin government has risen over deaths justified by intolerance of dissent, that is not a republic, not the one we want. We will judge the dictator under his own laws and a new France will flourish on the ruins of a corrupted promise."
 
 FRA_draft_new_constitution:0 "Draft A new constitution"
 FRA_present_the_1792_constitution:0 "Present The Republic Constitution"
@@ -119,6 +118,7 @@ FRA_marseille_defensive_desc:0 "As a gateway to the Mediterranean, Marseille req
 FRA_reinforce_costal_bases:0 "Reinforce Costal Bases"
 
 FRA_promote_napoleon:0 "Promote Napoleon"
+FRA_promote_napoleon_desc:0 "That Corsican artillery commander “Napoleone Bornaparte” managed to besiege the mutineers and traitors of Toulon who allowed an Anglo-Spanish naval landing. The commander executed a strange artillery strategy to evacuate the foreign invaders. His determination and coolness under fire has earned him the title of brigadier general, but his ambition may lead him to much more than that."
 
 FRA_annex_belgium:0 "Annex Belgium"
 FRA_annex_belgium_desc:0 "Belgium has always been an area of vital strategy. Yes, the Habsburgs have had too much possession of said area for too long, just as another title for their hereditary incompetence. And yet, they continue to ignore the fact that a people different from theirs lives in that region. The Walloons are a French-speaking people who deserve to integrate along with their culture."
@@ -130,6 +130,7 @@ FRA_plan_a_new_campaign:0 "Plan A New Campaign"
 
 
 FRA_rhine_integration:0 "Rhine Integration"
+FRA_rhine_integration_desc:0 "Behind the Rhine, there are hundreds of kingdoms, state-duchies and German counties but they are all under a culture that will never be unified under a single state. It's sad, but we have already made that a reality millennia ago, we will integrate and assimilate the Germanic populations behind the Rhine to at least give them a unified country where they will live."
 
 FRA_three_pronged_attack:0 "Three Pronged Attack"
 
@@ -248,3 +249,4 @@ FRA_amalgame_reform:0 "Amalgame Reform"
 FRA_levee_en_masse:0 "Levée en Masse"
 FRA_levee_en_masse_desc:0 "Too much decline in troops at the front, too many deserters and deaths. From now on, young single or widowed men from all over France will be compulsorily recruited to defend the Republic from its many enemies. When we have repelled the attacks, they will be able to return to their homes."
 bel_offensive:0 "Belgium Offensive"
+FRA_wip_content_tt:0 "§OThis will be added in the next update.§!"

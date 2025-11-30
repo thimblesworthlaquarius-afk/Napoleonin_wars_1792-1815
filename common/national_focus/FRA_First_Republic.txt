@@ -844,6 +844,7 @@ focus_tree = {
 				    traits = { popular_figurehead }
 			    }
 		    }
+			custom_effect_tooltip = FRA_wip_content_tt
 		}
 	}
 	focus = {
