@@ -1206,11 +1206,38 @@ focus_tree = {
 		search_filters = { FOCUS_FILTER_POLITICAL }	
 		prerequisite = { focus = FRA_southern_republics }
 		relative_position_id = FRA_promote_napoleon
+		available = {
+            OR = {
+                controls_state = 117
+				controls_state = 156
+        
+                any_country = {
+                    is_subject = yes
+                    is_subject_of = FRA
+                    controls_state = 117
+				    controls_state = 156
+                }
+            }
+			has_global_flag = FRA_italy_win
+        }
 		completion_reward = {	
-			set_cosmetic_tag = FRP_FRA
-
-			country_event = { id = france.2 }
-			news_event = { id = news.2 }
+			PTR = {
+			    transfer_state = 117
+				transfer_state = 156
+			}
+            
+            PTR = {
+                add_state_core = 156
+                add_state_core = 117
+            }	
+            FRA = {
+                release_puppet = PTR
+            }
+            hidden_effect = {
+			    PTR = {
+			        load_oob = PTR_1795
+				}	
+			}
 		}
 	}
 

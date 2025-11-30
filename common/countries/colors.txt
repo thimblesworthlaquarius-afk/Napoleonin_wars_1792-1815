@@ -8,6 +8,10 @@ CIS = {
 	color = rgb { 66 176 255 }
 	color_ui = rgb { 66 176 255 }
 }
+PTR = {
+	color = rgb { 66 176 255 }
+	color_ui = rgb { 66 176 255 }
+}
 ROR = {
 	color = rgb { 66 176 255 }
 	color_ui = rgb { 66 176 255 }

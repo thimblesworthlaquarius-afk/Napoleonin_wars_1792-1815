@@ -1,0 +1,31 @@
+characters={
+	PTR_council_1={
+		name="Director of Parthenopean Republic"
+		portraits={
+			civilian={
+				large="gfx/leaders/CIS/CIS_parliament.dds"
+			}
+		}
+		country_leader={
+			ideology=authoritarian_democracy
+			traits={ }
+			expire="1819.10.6.1"
+			id=-1
+		}
+	}
+	
+	PTR_council_2={
+		name="Director of Parthenopean Republic"
+		portraits={
+			civilian={
+				large="gfx/leaders/CIS/CIS_parliament.dds"
+			}
+		}
+		country_leader={
+			ideology=jacobinism
+			traits={ }
+			expire="1819.10.6.1"
+			id=-1
+		}
+	}
+}

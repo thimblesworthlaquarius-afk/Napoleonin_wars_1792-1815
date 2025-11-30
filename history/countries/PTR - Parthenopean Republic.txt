@@ -1,4 +1,4 @@
-capital = 159
+capital = 117
 
 
 set_politics = {
@@ -6,9 +6,6 @@ set_politics = {
     elections_allowed = yes
     election_frequency = 48
     last_election = "1792.1.1"
-
-    stability = 0.45
-    war_support = 0.25
 }
 
 set_popularities = {
@@ -18,7 +15,7 @@ set_popularities = {
 add_equipment_to_stockpile = {
 	type = infantry_equipment_0
 	amount = 40000
-	producer = CIS
+	producer = PTR
 }
 add_equipment_production = {
     equipment = {
@@ -32,7 +29,7 @@ add_equipment_production = {
 add_equipment_to_stockpile = {
 	type = support_equipment_1
 	amount = 10000
-	producer = CIS
+	producer = PTR
 }
 
 add_ideas = {
@@ -44,5 +41,5 @@ add_ideas = {
 ## CHARACTERS ##
 ################
 
-recruit_character = CIS_council_2
-recruit_character = CIS_council_1
+recruit_character = PTR_council_2
+recruit_character = PTR_council_1
