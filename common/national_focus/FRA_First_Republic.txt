@@ -1072,7 +1072,8 @@ focus_tree = {
                     target = ROOT
                     modifier = move_pope_opinion
                 }
-			}	
+			}
+            country_event = { id = france.506 }			
 		}
 	}
 

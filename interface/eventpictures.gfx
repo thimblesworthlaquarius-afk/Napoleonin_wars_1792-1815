@@ -92,6 +92,10 @@ spriteTypes = {
 		name = "GFX_report_uk_time_travel"
 		texturefile = "gfx/event_pictures/report_uk_time_travel.dds"
 	}
+	spriteType = {
+		name = "GFX_report_pope_v"
+		texturefile = "gfx/event_pictures/report_pope_v.dds"
+	}
 
 }
 

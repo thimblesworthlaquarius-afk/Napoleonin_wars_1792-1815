@@ -388,6 +388,21 @@ country_event = {
 		}	
 	}
 }
+country_event = {
+	id = france.506
+	title = france.506.a
+	desc = france.506.b
+	picture = GFX_report_pope_v
+	fire_only_once = yes
+	is_triggered_only = yes	
+	
+	option = {
+		name = france.506.c			
+		ai_chance = {
+			factor = 100
+		}	
+	}
+}
 
 
 
